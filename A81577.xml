@@ -1,0 +1,686 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A short essay of modern divinity, by Robert Dixon. D.D.</title>
+            <author>Dixon, Robert, d. 1688.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 105 KB of XML-encoded text transcribed from 31 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A81577</idno>
+            <idno type="STC">Wing D1748A</idno>
+            <idno type="STC">ESTC R231408</idno>
+            <idno type="EEBO-CITATION">99897291</idno>
+            <idno type="PROQUEST">99897291</idno>
+            <idno type="VID">137014</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A81577)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 137014)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2481:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A short essay of modern divinity, by Robert Dixon. D.D.</title>
+                  <author>Dixon, Robert, d. 1688.</author>
+               </titleStmt>
+               <extent>[6], 53, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by S.R. for R. Clavell at [ ],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1681]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Copy filmed at UMI microfilm Early English Books 1641-1700 reel 2481 has title page cropped at bottom; part of imprint missing.</note>
+                  <note>Reproduction of original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Apologetic works --  Early works to 1800.</term>
+               <term>Faith --  Early works to 1800.</term>
+               <term>Theology, Doctrinal --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-09</date>
+            <label>Jayanthi Reddy</label>Sampled and proofread</change>
+         <change>
+            <date>2012-09</date>
+            <label>Jayanthi Reddy</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:137014:1"/>
+            <pb facs="tcp:137014:1" rendition="simple:additions"/>
+            <pb facs="tcp:137014:2"/>
+            <pb facs="tcp:137014:2" rendition="simple:additions"/>
+            <p>A SHORT ESSAY OF <hi>Modern Divinity.</hi>
+            </p>
+            <p>BY <hi>ROBERT DIXON.</hi> D.D.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>S. R.</hi> for <hi>R. Clavell</hi> at <gap reason="illegible: missing" resp="#UOM" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap>
+            </p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:137014:3"/>
+            <pb facs="tcp:137014:3"/>
+            <head>THE PREFACE.</head>
+            <p>
+               <seg rend="decorInit">T</seg>HE Invaſion of the Pulpit, and the Se<g ref="char:EOLhyphen"/>paration from the Publick Worſhip, are the Mothers and Nurſes of Dogm's and Practiſes of Rebellions and Maſſacres for the Ruin of Civil and Eccleſiaſtical Government. The Supream Power hath Religiouſly commanded general Humiliation of Faſting and Pray<g ref="char:EOLhyphen"/>er to prevent our Diſtractions and Deſtructions. The Outward Command is obeyed of God and the King; the next is the Inward Duty of Reformation and Faſting from Sin. Let every one turn from the Evil of his Way, and from the Violence that is in his Hands; lest it be returned upon us by God (after our Sawcy Charge upon God; <hi>Wherefore have we faſted and thou ſeeſt not? Wherefore have we afflicted our Soul, and thou takeſt no knowledge?</hi>) Behold in the day of your Faſt you find pleaſure, and exact all your labours: Behold, ye faſt for ſtrife and debate, and to ſmite with the fiſt of Wickedneſs: Ye ſhall not faſt as ye do this day, to make your voice to be heard on High. Is it ſuch a Faſt that I have choſen? A day for a man to afflict his Soul? Is it to bow down his Head as a Bullruſh, and to ſpread Sackcloth and Aſhes under him? Wilt thou call <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <pb facs="tcp:137014:4"/>this a Faſt, and an Acceptable Day to the Lord? Is not this the Faſt that I have choſen, to looſe the Bonds of Wickedneſs, to undo the Heavy Burdens, and to let the Oppreſſed go free, and that ye break every Yoke? Is it not to deal thy Bread to the Hungry, and that thou bring the Poor that are caſt out, to thy Houſe? When thou ſeeſt the Naked, that thou cover him, and that thou hide not thy ſelf from thine own Fleſh? <g ref="char:V">Ʋ</g>nto which Praecept is added the Promiſe due when the Command is performed; Then ſhall thy light break forth as the morning, and thine health ſhall ſpring forth ſpeedily, and thy righteouſneſs ſhall go before thee, and the Glory of the Lord ſhall be thy Reward. Then ſhalt thou call and the Lord ſhall anſwer, thou ſhalt cry, and he ſhall ſay, Here I am. If thou take away from the midſt of thee the Yoke, the putting forth of the finger, and ſpeaking vanity. And if thou draw out thy Soul to the hungry, and ſatisfie the afflicted Soul; Then ſhall thy light riſe in obſcurity, and thy darkneſs be as the noon day; and the Lord ſhall guide thee continually, and ſatisfie thy Soul in drought, and make fat thy Bones; and thou ſhalt be like a watred Garden, and like a Spring of Water whoſe Waves fail not. And they that ſhall be of thee, ſhall build the old waſte places, thou ſhalt raiſe up the foundations of ma<g ref="char:EOLhyphen"/>ny Generations, and thou ſhalt be called the Repairer of the Breach, the Reſtorer of Paths to dwell in, for the Mouth of the Lord hath ſpoken it.</p>
+            <p>Know therefore for certain, That the performance of the Covenant on our Part, engages the performance of the Covenant on God's Part. This is Juſtice with God and Man. Look to it. Do no private wrong to your Neighbour, do no publick wrong to the Govern<g ref="char:EOLhyphen"/>ment of Church or State, which is Gods. Both theſe are good, nay the beſt of Governments; yet as all other
+<pb facs="tcp:137014:4"/>things are ſubject to failings, theſe may be rectified, but the Government its ſelf muſt ſtand, or elſe we muſt fall. Blind Sampſons will pull down a ſtrong Houſe over their own heads for a private Revenge, or in fond hopes to build a better, by their Children, when they are dead, but the cauſe of Ruine is rather like to fall upon them who have ruined others. If therefore after Faſting and Praying we fall to pulling down and rooting up, we mock God and undo our ſelves with our own hands, ſo our Destruction is from our ſelves, and we fruſtrate our own hopes, when in God we might have help.</p>
+            <p>The teeming Cauſe that produces the ſad Effects of of all our Miſeries and Diſtractions, being the Ma<g ref="char:EOLhyphen"/>lice and Cruelty of the Church of <hi>Rome,</hi> on the one ſide, and the <hi>Factious Sects</hi> on the other ſide, endea<g ref="char:EOLhyphen"/>vouring the ſame Extirpation of the Church of <hi>Eng<g ref="char:EOLhyphen"/>and,</hi> and of the Government of this Kingdom, which they did once bring to paſs in the late Twenty Years Rebellion, to the allmoſt final Ruine of the Royal Fa<g ref="char:EOLhyphen"/>mily, the Nobility, Gentry, Clergy and Magistracy whoſe Honours &amp; Eſtates were ſwallowed up by them: I thought fit to add this ſmall Treatiſe to demonſtrate the neceſſity of promoting the true Reformation of Theology, from thoſe Seditious, Superſtitious and bloody Principles, which have prevailed over this part of Chriſtendom, as being the only Remedy under God to ſet all to rights in this Church and State. There<g ref="char:EOLhyphen"/>fore I beg the favour of all Divines, who most of all Profeſſions have the Peoples ear, and conſequently moſt influence upon their Actions, to make it their more than ordinary buſineſs, to Preach and Practiſe the Pure Doctrine and Spiritual Worſhip of the Goſpel, after the Pattern of the Primitive times. This will be moſt acceptable ſervice in this Critical Parocyſm of
+<pb facs="tcp:137014:5"/>Jealouſies and Fears. While we ſtand ſtareing one upon another in fury, watching to deſtroy one another, or as in a storm, in fear looking when the Waves ſhould open their Mouths to devour us all together. When we had more need to look up unto God to ſave us in our extremity, and by Faſting and Prayer and mutual Charity unite againſt the Common Enemy to propitiate the offended Deity. Other Remedies be<g ref="char:EOLhyphen"/>ſides this there can be none, it will be our wiſdom to joyn all together for this Holy purpoſe before it be too late. Are we mad to Act the ſame Tragedy over again in the ſame Age, by the ſame Perſons, moſt of them muſt be dead on both ſides; thoſe that are alive must be old on both ſides, and ſhall the young ones out-fool or out-knave the old ones, ſhall the young Men riſe up to play their bloody ſport before the old ones, again will they ſuffer it? Shall the Sword devour for ever, and we make our ſelves and our Poſterity miſerable once more? Take heed, truſt them not, you have ſmarted by them already. It will be bitter in the latter end, And what will you do in the end thereof?</p>
+            <epigraph>
+               <q>
+                  <p>
+                     <hi>Dulce Bellum inexpertis.</hi>
+                  </p>
+                  <p>The burnt Child ſhould dread the Fire.</p>
+               </q>
+            </epigraph>
+         </div>
+      </front>
+      <body>
+         <div type="essay">
+            <pb n="1" facs="tcp:137014:5"/>
+            <head>A SHORT ESSAY OF Modern Divinity.</head>
+            <div n="1" type="section">
+               <head>SECT. I.</head>
+               <p>
+                  <note place="margin">Chriſt Infalli<g ref="char:EOLhyphen"/>ble.</note>
+                  <seg rend="decorInit">C</seg>Hriſt as God and Man, is Infallible.</p>
+               <p>The Apoſtles as all Men, were Fallible; as Inſpired,<note place="margin">Apoſtles Infal<g ref="char:EOLhyphen"/>lible in Revela<g ref="char:EOLhyphen"/>tions.</note> in what they were Inſpired while they were In<g ref="char:EOLhyphen"/>ſpired, Infallible: In other things deceived in their own Opinions like other men; As of the Tem<g ref="char:EOLhyphen"/>poral Kingdom of Chriſt, and being the Greateſt therein: As of the Day of Judgement to come in their days, <hi>&amp;c.</hi> Erred in their Manners, de<g ref="char:EOLhyphen"/>nied, forſook their Maſter, ſought for greatneſs, <hi>Paul</hi> not free, <hi>Peter</hi> moſt to blame, ſifted by Satan, yet their Faith did not fail. Only their Revelations were Infallible: Such as their Goſpels, and Acts, and Epi<g ref="char:EOLhyphen"/>ſtles are; when they give not their own Judgement without Gods, whoſe Inſpirations were proved by Mi<g ref="char:EOLhyphen"/>racles-working Faith.</p>
+               <pb n="2" facs="tcp:137014:6"/>
+               <p>
+                  <note place="margin">Ancient Fathers Venerable. Modern Writers more learned.</note>Ancient Writers next to them were not Inſpired and did no Miracles, yet are Venerable; but Modern Wri<g ref="char:EOLhyphen"/>ters long after them are more knowing, but all ſubject to failings.</p>
+               <p>They came from the <hi>Jews</hi> and from the <hi>Gentiles,</hi> and did not a little partake of the <hi>Jewiſh</hi> and <hi>Gentile</hi> Religion. Conſider thoſe Proſelytes as men long ac<g ref="char:EOLhyphen"/>cuſtomed to both Doctrines and Rites, and it is no wonder if they were loth to part with them: Since that by degrees, if the Wits of men are more refined in the Goſpel purity of Doctrine and Worſhip, wonder not at the matter, for they have had more time and more means a great deal to conſider things better.</p>
+               <p>
+                  <note place="margin">Fathers Wit<g ref="char:EOLhyphen"/>neſſes. Errors in Fa<g ref="char:EOLhyphen"/>thers.</note>The neareſt Fathers were the beſt Witneſſes, but the fartheſt Doctors, are the beſt Judges.</p>
+               <p>The <hi>Millenaries</hi> Opinion was very old; The Com<g ref="char:EOLhyphen"/>munion of Infants, Their Damnation without Bap<g ref="char:EOLhyphen"/>tiſm, The Corporeity of Angels and of God himſelf, The Re-baptizing of ſuch as were Baptized by Here<g ref="char:EOLhyphen"/>ticks, The long deferring of Baptiſm, The Baptiſm for the Dead, Reliques, The Non-Reſtoring of the Lapſed, The Denyal of Repentance, Marriage to Prieſts, Adoring Croſſes, The <hi>Limbi Patrum &amp; In<g ref="char:EOLhyphen"/>fantum,</hi> Falſe Miracles, Purgatory, The Invocation of Saints and Angels, Image Worſhip, and many more Opinions have too much Antiquity and too little Truth.</p>
+               <p>They held the Fundamental Truths in great Righ<g ref="char:EOLhyphen"/>teouſneſs, we hold the ſame and many more in too much Unrighteouſneſs.</p>
+               <p>
+                  <note place="margin">Modern Writers</note>The Modern Writers have conſidered all the Rea<g ref="char:EOLhyphen"/>ſons of the Ancients, and have added to that which their Fathers invented: The Fathers have opened the Door, and their Children have entred into the more Secret Receſſes of Divine Truths. They had not
+<pb n="3" facs="tcp:137014:6"/>time, nor ſo much skill as their Succeſſors had. They did well in their Generations, but they could not do all. He that lives a thouſand Ages hence, ſhall have no cauſe to be idle, he ſhall find work enough to find out what Truths have not been yet diſcovered, and ſo to the Worlds end, there are more Worlds to diſ<g ref="char:EOLhyphen"/>cover.</p>
+               <q>Multa dies, variuſque labor mutabilis aevi, Retulit in melius.</q>
+               <p>Every day brings new light: Truth is the Daugh<g ref="char:EOLhyphen"/>ter of time. What the Fathers ſaw darkly and afar off peeping through the Lattices, the Children ſee diſtinct<g ref="char:EOLhyphen"/>ly, the Objects coming to a nearer diſtance by open Windows.</p>
+               <p>
+                  <hi>Judaiſm</hi> and <hi>Gentiliſm</hi> came too hot upon them in the Firſt Ages, and they did not, could not put them by ſo ſtrongly as we have done ſince.<note place="margin">Education.</note> Their Educati<g ref="char:EOLhyphen"/>on among <hi>Jews</hi> and <hi>Gentiles</hi> was a great hindrance of that work; Our Education among Chriſtians alto<g ref="char:EOLhyphen"/>gether, is a great help to the ſame work. <hi>Judaiſm</hi> and <hi>Gentiliſm</hi> were but newly renounced, they came reeking from them to contrary Principles. The Doctri<g ref="char:EOLhyphen"/>nes and Rites of <hi>Judaiſm</hi> and <hi>Gentiliſm</hi> are ſtale now, and obſolete long ſince, though ſome would be nibling at them ſtill: Other Errors have crept in, but of a more remote nature, and leſs contrariant than the former were. The Fountains came pure from the Apoſtles, but the Streams of <hi>Judaiſm</hi> and <hi>Gentiliſm</hi> ran quickly into them and pudled thoſe Waters, which ſince have ſettled, and grown pure in a good meaſure, after the <hi>Rabbinical</hi> and <hi>Philoſophical</hi> Pollutions, eſpeci<g ref="char:EOLhyphen"/>ally at the time of the Reformation, which daily ad<g ref="char:EOLhyphen"/>vanceth it ſelf more and more, with the Improvement
+<pb n="4" facs="tcp:137014:7"/>alſo of all Arts and Sciences in a high and glorious Suc<g ref="char:EOLhyphen"/>ceſs.<note place="margin">Improvements.</note>
+               </p>
+               <q>
+                  <l>Venimus ad ſummum Fortunae, pingimus atque</l>
+                  <l>Pſallimus, &amp; meliùs luctamur Achivis.</l>
+                  <bibl>
+                     <hi>Virg.</hi>
+                  </bibl>
+               </q>
+               <p>The <hi>Greeks</hi> outdid the <hi>Egyptians,</hi> the <hi>Romans</hi> out<g ref="char:EOLhyphen"/>did the <hi>Greeks,</hi> even in thoſe things which they were taught at <hi>Memphis</hi> and <hi>Athens.</hi> We want nothing to excell our Forefathers in, but Piety and Honeſty. We are <hi>ſagaciores in dogmate, nequiores in fide.</hi> There are better Expoſitions of Scriptures than ever were, but worſer Manners; Richer Veins of Gold, but more alloied with baſer Mettals. Fathers plain and honeſt, Children gay and crafty. Novelty no real prejudice to the Authority of Ancient Truth. If our Fathers in Reli<g ref="char:EOLhyphen"/>gion had refuſed every Expoſition of Scripture that was true, becauſe it was new to them, we ſhould by this time have had nothing old, nor true: If any thing be true, entertain it; though it be found out but yeſter<g ref="char:EOLhyphen"/>day with Men, it was from the beginning with God. Call nothing New, if it be True. The World hath been too long deceived by the Antiquity of Errors: Wiſe men look beyond them, for there are Ancienter and Wiſer than they.</p>
+            </div>
+            <div n="2" type="section">
+               <head>SECT. II.</head>
+               <p>
+                  <note place="margin">Suppoſitious Writings.</note>Very few of the Writings in the firſt three Centu<g ref="char:EOLhyphen"/>ries are come to our hands. Many Books obtruded un<g ref="char:EOLhyphen"/>der the Names of the Apoſtles, <hi>Peter, Barnabas, Thomas. Paul</hi> to the <hi>Laodiceans, Paul</hi> and <hi>Te<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>la,</hi>
+                  <note place="margin">
+                     <hi>Euſeb.</hi> l. 1.</note> &amp;c. This made <hi>Euſebius</hi> complain, that he had little or no light to guid him <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n his Hiſtory of thoſe Primitive Times; becauſe thoſe Chriſtians did not
+<pb n="5" facs="tcp:137014:7"/>write much, or if they did, their Books were loſt: As the Five Books of <hi>Papias</hi> Biſhop of <hi>Hierapolis,</hi> the Apology of <hi>Quadratus Athenienſis,</hi> of <hi>Ariſtides, Ba<g ref="char:EOLhyphen"/>ſilides,</hi> &amp;c. mentioned by <hi>Euſebius,</hi> St. <hi>Jerom,</hi> and others. <hi>Clemens, Ignatius, Justin Martyr, Irenae<g ref="char:EOLhyphen"/>us, Clemens Alexandrinus, Tertullian, Origen, Cy<g ref="char:EOLhyphen"/>prian, Arnobius, Lactantius</hi> have pretty well eſca<g ref="char:EOLhyphen"/>ped, though time hath ſet her Fangs upon them.</p>
+               <p>The Writings of the Fourth and Fifth Centuries, have exceeded the former for number and good for<g ref="char:EOLhyphen"/>tune of more ſafe conveyance, but not for worth and authority. Many of the oldeſt are Suppoſititious, and thoſe that are legitimate, corrupted,<note place="margin">Legitimate Writings cor<g ref="char:EOLhyphen"/>rupted and ob<g ref="char:EOLhyphen"/>ſcure.</note> and all hard to be underſtood, by reaſon of the Languages, and Idi<g ref="char:EOLhyphen"/>oms, and Schemes of Oratory, and Logical Subtilties with which they abound; as alſo the Terms uſed in a far different Sence then, and ſafer than now they are. As Pope, Patriarch, Maſs, Oblation, Sacrifice, Myſteries, Mortal Sins, Penance, Confeſſion, Satisfaction, Me<g ref="char:EOLhyphen"/>rit, Indulgence, Altar, <hi>&amp;c.</hi> Since that we may com<g ref="char:EOLhyphen"/>plain as <hi>Gregory Naſianzen</hi> that good man did. There was an honeſt, plain, and ſolid way of Preaching,<note place="margin">Greg. Naz.</note> brief and profitable;<note place="margin">Late Innovati<g ref="char:EOLhyphen"/>ons.</note> but afterwards a wanton kind of Divi<g ref="char:EOLhyphen"/>nity, embroydered with artifices and delicacies came to be the mode; then came in Curioſities, Juglings, and Tricks of <hi>Legerdemain.</hi> But had he ſeen the Wagon Loads of Summiſts, Caſuiſts, Myſticks, Poſti<g ref="char:EOLhyphen"/>lers, Criticks, Canoniſts, Ritualiſts, Cabbaliſts, which theſe latter Ages have produced, He, and other Caſ<g ref="char:EOLhyphen"/>ſandriſts, that have bore witneſs in all Ages to the Truth, would have been tired with garbling the Er<g ref="char:EOLhyphen"/>rors and Vices of every Sect, and choaked with the ſwarms of Locuſts that ruſh out of the Bottomleſs Pit.</p>
+               <pb n="6" facs="tcp:137014:8"/>
+               <p>Ancient miſtakes of Chriſtian Anabaptiſts, about the Antipodes, The Souls Propagation, and Purgation, Corporeity of Angels, and Souls of Men, Praying for the Dead, <hi>&amp;c.</hi> are nothing in compariſon to the ſwin<g ref="char:EOLhyphen"/>ſing Dogma's of Infallibility, Supremacy, Tranſubſtan<g ref="char:EOLhyphen"/>tiation, Conſubſtantiation, worſhip of Images, An<g ref="char:EOLhyphen"/>gels and Saints, Rebellions, Poyſonings, Aſſaſſinati<g ref="char:EOLhyphen"/>ons, <hi>&amp;c.</hi>
+               </p>
+               <p>'Twould tire a ſturdy Satyr, and quite wear out his Whips of Steel, to laſh every Doctrine of Devils that Devilliſh men have invented to the hurt of Churches and Kingdoms, and the diſturbance of the whole World, to bring all things into a Chaos of Confuſion, if ſome men might have their Will.</p>
+               <p>Long has Popery and Superſtition reigned from the days of <hi>Phocas.</hi>
+               </p>
+               <p>
+                  <note place="margin">VVitneſſes of <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>he Truth.</note>Againſt theſe the <hi>Waldenſes</hi> and <hi>Albingenſes</hi> have proteſted, with <hi>John Hus, Jerom of Prague, Robert of Lincoln, John Gerſon, Council of Conſtance, Eraſ<g ref="char:EOLhyphen"/>mus, Baptiſta, Montuanus, Caſſander, Polydore Virgil, Heſſelius, Melancthon, Luther, Calvin, Oecolampadius, Beza,</hi> &amp;c. mighty men of valour, famous in their Generations, men of Renown, of a noble <hi>Genius,</hi> that dared to bid defiance to the De<g ref="char:EOLhyphen"/>vil, and to the overwhelming Tyranny of the Pope and Court of <hi>Rome.</hi>
+               </p>
+               <p>The ſame work is proſecuted by us Proteſtants with might and main, (though there be ſome ſmall Diffe<g ref="char:EOLhyphen"/>rences amongſt us; and we have cauſe to unite, be<g ref="char:EOLhyphen"/>cauſe the Common Enemy ſeeks to root us out from the Face of the Earth, and <hi>Hannibal</hi> is at our Gates;) and a wonderful Progreſs is made therein by rare Ar<g ref="char:EOLhyphen"/>tiſts.</p>
+            </div>
+            <div n="3" type="section">
+               <pb n="7" facs="tcp:137014:8"/>
+               <head>SECT. III.</head>
+               <p>The Face of things is changed, the Vizar removed, the Natural Beauty appears, no new Religion, but the Old reſtored.</p>
+               <q>
+                  <hi>Hic labor, hoc opus eſt.</hi>
+               </q>
+               <p>Modern Divinity is the very ſame with the Ancient Catholick and Apoſtolical Faith, contained in the Scriptures of the New Teſtament,<note place="margin">Modern Divi<g ref="char:EOLhyphen"/>nity.</note> plainly expounded without mixture of Artificial Gloſſes. As Man was created Righteous, but after that ſought out many Inventions; ſo are the Scriptures eaſie, till obfuſcated by humane Speculations. The pure Goſpel unmixed with Judaical and Gentile Praecepts and Ceremonies, Philoſophy, Logick, and Oratory. Not wreſting the Scriptures from their Literal or Myſtical Senſe. No need of a living Judge, a Pope, a Conclave, a Coun<g ref="char:EOLhyphen"/>cil packt for endleſs Controverſies.</p>
+               <q>Pruritus diſputandi, ſcabies Eccleſiae.</q>
+               <p>They ſay Diſputes never did good; Wit againſt Wit, engender Strife; there is no end of ſuch doings.</p>
+               <p>
+                  <note place="margin">Neceſſary things few.</note>There are but few neceſſary things; trouble the People of God no farther; if they obſerve theſe things, they ſhall do well. The Simplicity of the Goſpel, is the Wiſdom and Power of God unto Salvation, migh<g ref="char:EOLhyphen"/>ty for the beating down of the ſtrong holds of Sin and Satan. A two-edged Sword for the dividing aſunder of the Heart and Reins. The preaching of Chriſt and him Crucified, to the <hi>Jews</hi> a ſtumbling Block, and to the <hi>Greeks</hi> Fooliſhneſs, but unto them which are cal<g ref="char:EOLhyphen"/>led,
+<pb n="8" facs="tcp:137014:9"/>both <hi>Jews</hi> and <hi>Greeks,</hi> the Power of God, and the Wiſdom of God. Without controverſie great is the Myſtery of Godlineſs, Chriſt manifeſted in the Fleſh, juſtified in the Spirit, ſeen of Angels, believed on in the World, and received up into Glory. He that believeth ſhall be ſaved, and he that believeth not ſhall be damned. This is the Whole Duty of Man, <hi>Fear God and keep his Commandments.</hi>
+               </p>
+               <p>
+                  <note place="margin">Matters of Faith not con<g ref="char:EOLhyphen"/>troverted.</note>There are no Matters of Faith in Controverſie. The chief Diſputes of Antiquity, Proſperity, Succeſſion, Infallibility, Supremacy, Miracles, Tranſubſtantiati<g ref="char:EOLhyphen"/>on, <hi>&amp;c.</hi> are not Matters of Faith, but doubtful Diſ<g ref="char:EOLhyphen"/>putation. We are to contend for nothing, but the Preſervation and Propagation of that Faith which was once delivered to the Saints. There is no Judge of Faith but God, who hath judged it for us, and revealed it unto us. The Truth is loſt by vain Janglings. <hi>Tu diſputa, ego credam. Juſtinian</hi> wiſely forbad any Com<g ref="char:EOLhyphen"/>ments upon the Text of his Law, but they yielded no obedience to him in that at all, but the quite con<g ref="char:EOLhyphen"/>trary.</p>
+            </div>
+            <div n="4" type="section">
+               <head>SECT. IV.</head>
+               <p>In the Three firſt Centuries were no Controverſies, but ſuch only as the Apoſtles had with the <hi>Jews</hi> and <hi>Gentiles;</hi> Touch not, taſte not, handle not, Circum<g ref="char:EOLhyphen"/>ciſion, Days and Years, Meats offered to Idols, <hi>&amp;c.</hi> They taught Chriſtian Liberty, and a New Crea<g ref="char:EOLhyphen"/>ture.</p>
+               <p>In the Fourth and Fifth Centuries and ſo forward, came in large Commentaries, Sophiſtical, and Caſu<g ref="char:EOLhyphen"/>iſtical Divinity, innumerable Superſtitions,<note place="margin">Reformation.</note> and Will-Worſhip. This needed a Reformation, which all moderate Men ſtudied, and longed for in every Age;
+<pb n="9" facs="tcp:137014:9"/>but could not effect: The time was not yet come. Throw away Infallibility, Supremacy, <hi>&amp;c.</hi> Pull up Weeds, Sweep away Rubbiſh, Cheriſh Faith and a good Life. When we agree in the things, leave diſ<g ref="char:EOLhyphen"/>puting of the Modes. Let our Moderation be known unto all Men. The Lord is at hand, we are all in our Journey to Heaven; fall not out by the way; give the Right Hand of Fellowſhip, one to another; ſerve one another in Love; keep the Unity of the Spirit in the Bond of Peace; ſerve the Lord with one Lip, and with one Shoulder; contend not about Forms of Diſ<g ref="char:EOLhyphen"/>cipline; obey the Magiſtrate; variety of Forms hurt not Faith; let Brotherly Love continue; ſpeak the ſame things though in a different manner; give that liberty of Prophecying one to another.</p>
+               <p>Laws are plain, Juſtice eaſie, do as we would be done by; all will be at peace, if Spirits be peaceable. If any man be contentious, we have no ſuch cuſtom, neither the Churches of God: <hi>Salus Populi Suprema Lex,</hi> &amp;c. Suffer no Doctrine which is hurtful to Church or State, and all will be well. Receive the ingrafted Word of God which is able to ſave your Souls, the ſin<g ref="char:EOLhyphen"/>cere Milk of the Goſpel; receive a weak Brother, but not to doubtful Diſputations; offend not him for whom Chriſt died. Never eat Fleſh while the World ſtands, rather than offend a weak Brother, or wound his ten<g ref="char:EOLhyphen"/>der Conſcience for whom Chriſt died. If Tares be ſowed, the Enemy hath done this, the Lord will de<g ref="char:EOLhyphen"/>ſtroy both it and them. Let the Tares and the Wheat both grow together until Harveſt, when the Angels the Reapers ſhall bind the Tares in Bundles, and throw them into the Fire, and burn the Chaff with unquench<g ref="char:EOLhyphen"/>able Flames; but they will gather the Wheat into Gods Barn, every man muſt ſtand or fall to his own Maſter: Every mans work ſhall be tried, his Hay and
+<pb n="10" facs="tcp:137014:10"/>Stubble ſhall be conſumed, which he hath ignorantly built upon a pretious Foundation, but he himſelf ſhall be ſaved, yet ſo, as by Fire. Whatſoever is of God ſhall ſtand; be not found to fight againſt God, nor con<g ref="char:EOLhyphen"/>demn the Generation of the Juſt. It is in vain to kick againſt the Pricks: We have not ſo learned Chriſt. Let every Soul be Subject to the Higher Powers, for there is no Power but of God. Pure Religion and undefiled is this, To viſit the Fatherleſs and the Widows, and to keep our Souls unſpotted from the World, to hate the Garments ſpotted by the Fleſh, to live uprightly in the midſt of a crooked and perverſe Generation, and to flee from the Wrath to come.</p>
+            </div>
+            <div n="5" type="section">
+               <head>SECT. V.</head>
+               <p>The Word of God is inwardly by inſtinct of Nature in our Hearts and Conſciences.<note place="margin">Word of God.</note>
+               </p>
+               <p>The Word of God is inwardly by Revelation of Grace written in by his Spirit in our Hearts and Con<g ref="char:EOLhyphen"/>ſciences.</p>
+               <p>The Word of God is outwardly written in the Scri<g ref="char:EOLhyphen"/>pture.</p>
+               <p>The Word of God is outwardly written in the whole Creation.</p>
+               <p>To believe, and ſerve God only, and not Saints, or Angels, or Idols, is Gods Word.</p>
+               <p>To Obey Princes and Prieſts is Gods Word. To Re<g ref="char:EOLhyphen"/>bell is Witchcraft, and the Devils Word.</p>
+               <p>Rewards of Grace, not Merit, is Gods Word.</p>
+               <p>Chriſt the only true Prieſt, and Sacrifice, and Medi<g ref="char:EOLhyphen"/>ator, is Gods Word. No other Name given under Heaven by which we can be ſaved.</p>
+               <p>Baptiſm and the Lords Supper in both kinds, is Gods Word.</p>
+               <p>Marriage in all, is the Ordinance of God, and Gods Word<g ref="char:punc">▪</g>
+               </p>
+               <pb n="11" facs="tcp:137014:10"/>
+               <p>Juſtice and Mercy to all, is Gods Word.</p>
+               <p>Religion to be perſwaded, not forced, is Gods word.</p>
+               <p>Common Salvation is Gods Word. Chriſt died for all.</p>
+               <p>Scriptures common to all, Gods Teſtament, Gods Word.</p>
+               <p>God no Reſpecter of Perſons, is Gods Word.</p>
+               <p>Theſe things are good and profitable to all men.</p>
+               <p>Theſe things exhort and teach, with all Patience and long Suffering.</p>
+               <p>Freely we have received, freely give.</p>
+               <p>If theſe Doctrines were preached amongſt Papiſts and Proteſtant Diſſenters of unbiaſſed Spirits, they would liſten diligently, and be pricked in their hearts, and cry out, Men and Brethren, what ſhall we do? But alas, the poor well-meaning Souls are led away, by the crafty wilineſs of thoſe deceitful workers, that lye in wait to deceive, that make a Gain of Godlineſs, writing, and preaching, and practiſing un-Goſpel-like things. We endeavour, and pray, and hope, and long for this happy Reformation, and till it be perfected, continue to proteſt againſt all that is contrary to ſound Doctrine, and this is all our Forefathers did, or that we can do, and God accepts of it, and will help our good work and labour of Love: And ſtill God and his Truth ſhall never want their Witneſſes. When we have tried all the ways we can, what ever the Succeſs be, it was fairly offered, we ſhall not loſe our Reward, we have wronged no body, our Reward is with the Lord, it ſhall return into our own Boſoms, we ſhall ſee the travel of our Souls and be ſatisfied, and the work of the Lord ſhall proſper in our hands. Let God do his work in his own time, and in his own way, we have ſaved our own Souls: Their blood ſhall be upon their own heads.</p>
+               <pb n="12" facs="tcp:137014:11"/>
+               <p>There is ſet before us <hi>Jewiſh</hi> Divinity, <hi>Heatheniſh</hi> Divinity, Popiſh Divinity, Reformed Divinity. Try all things, hold faſt that which is good: But above all, Stand faſt in the Liberty with which Chriſt hath made you free, and be not entangled again in the Yoke of Bondage, which neither you nor your Fore-fathers were able to bear.</p>
+            </div>
+            <div n="6" type="section">
+               <head>SECT. VI.</head>
+               <p>If there be Cuſtom,<note place="margin">Cuſtoms.</note> or Education, or Credit, or In<g ref="char:EOLhyphen"/>tereſt in the caſe, you may come off from all theſe, for the Goſpels ſake, and for your Souls ſake, and for Gods ſake; except ye be Reprobates and will be Reprobates, except ye be Barbarous and will be Barbarous.</p>
+               <p>The ignorant and ſlaviſh <hi>Greeks</hi> ſtand off from Re<g ref="char:EOLhyphen"/>formation by any Copy,<note place="margin">Greek.</note> becauſe they will not alter, though for the better, leſt the <hi>Turks,</hi> under whoſe Bondage they live, ſhould deny them that Liberty they have, for ſiding with their Weſtern Enemies. 'Tis a ſore neceſſity; 'tis Barbariſm, their Forefathers diſ<g ref="char:EOLhyphen"/>dained the Title. 'Tis their greater miſery, and their leſs ſin; by how much the more they are oppreſſed, and by how much the leſs they underſtand, and by how much the more they would know better if they knew how. If they had known the things that we know, and were in that Liberty and Plenty that we are in, they would do better things than we do. No body knows what Slavery is but they that feel it: No body knows what Poverty is but they that feel it: No body knows what Ignorance is but they that are under it, and think there is no other Knowledge.</p>
+               <q>
+                  <p>Magnum eſt humanae fragilitatis remedium, Neceſſitas.</p>
+                  <bibl>
+                     <hi>Sen.</hi>
+                  </bibl>
+               </q>
+               <pb n="13" facs="tcp:137014:11"/>
+               <p>
+                  <note place="margin">Cuſtoms barba<g ref="char:EOLhyphen"/>rous.</note>Many Cuſtoms of Nations, though never ſo Barba<g ref="char:EOLhyphen"/>rous, are diligently obſerved, as, lying with Mothers and Siſters, among the <hi>Perſian Magi,</hi> Proſtituting Wives as the <hi>Lacedemonians</hi> did and <hi>Indians</hi> do, and count it a great honour and civility eating their Old Pa<g ref="char:EOLhyphen"/>rents alive, ſo to bury them in their Bowels a great Pi<g ref="char:EOLhyphen"/>ety. Stealing, an honourable employment amongſt the <hi>Idumaeans</hi> and <hi>Arabians</hi> and <hi>Algerines,</hi> &amp;c. ever ſince <hi>Nimrods</hi> time the old Thief-hunter. <hi>Canibals</hi> eating of Men. Wives buried or burnt alive with their dead Husbands, &amp;c.</p>
+               <p>But we are a Civilized, as well as a Chriſtianized People, and may and do underſtand, and practiſe bet<g ref="char:EOLhyphen"/>ter things. We know our Maſters Will and do it not, we deſerve to be beaten with many ſtripes. We live not among Turks and Infidels, but among Chriſtians. We are not Slaves but Freemen. We may be wiſer and honeſter, if we will, for we know better things. So that we have no Cloke for our ſins, we can make no juſt excuſes, we can frame no righteous pretenſes, we are verily guilty for being no better, becauſe we are better taught, than to be Idolaters, Covenant-breakers, Murderers, Robbers, Profane, and down<g ref="char:EOLhyphen"/>right Atheiſts. So making our ſelves ſinful as we are, ſo making our ſelves miſerable as we are, and more and more ſinful and miſerable as we deſerve to be, e<g ref="char:EOLhyphen"/>ven forſaken of God, whom we have forſaken, and then looking upon one another for help, but not upon God.</p>
+            </div>
+            <div n="7" type="section">
+               <head>SECT. VII.</head>
+               <p>O the Right Spirit of the Goſpel is quite another thing than that which ſhews it ſelf abroad in the World in our days!</p>
+               <pb n="14" facs="tcp:137014:12"/>
+               <p n="1">1. The Clergy are not to Lord it over the Laity (as far as Princes) as they do,<note place="margin">Clergy.</note> for they are the Lord's Inheritance.</p>
+               <p n="2">2. The Clergy are not to Lord it over the Clergy, as they do, for they are the Lord's Inheritance. How plain is Chriſt's Prohibition to the contrary. — It ſhall not be ſo among you. — My Kingdom is not of this World, &amp;c. This is unreaſonable, this is unſufferable. I will not ſay unpardonable, whether it be in the Pope, as it hath been a long time <hi>viis &amp; modis,</hi> God knows how! Or whither it be in the Presbyterian, Independant, Anabaptiſts, or &amp;c. as it was for a ſhort time in compariſon, <hi>viis &amp; modis,</hi> God knows how! To be ſure they all equally claim Infallibility and Supremacy,<note place="margin">Infallibility and Supremacy.</note> if they could catch it, and would practice equally Rebellion Murder and Ra<g ref="char:EOLhyphen"/>pine if they durſt. What elſe are thoſe indeed and in truth, but <hi>Simeon</hi> and <hi>Levi,</hi> Brethren in Iniquity, how true is it that Inſtruments of Cruelty are in their Habitations, how true is it, that they have brought a ſcandal upon the peaceable Goſpel of Chriſt, to be the cauſe of all the Blood that hath been ſp<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lt in Chriſten<g ref="char:EOLhyphen"/>dom, and made the names of Chriſtians ſtink among all the Inhabitants of the World, that have heard of their Doctrines and Doings. Surely the Lord will be avenged upon ſome body for theſe things. The true zealous Proteſtant party waſh their hands from this guilt, and though they dy Ten Thouſand Deaths, will never ſtain their hearts with ſuch Blood guiltineſs. They have better Principles than ſo where ever they are, they are the Tru<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſt Church; ſay the Papiſts and Sect<g ref="char:EOLhyphen"/>aries what they pleaſe. Theirs is the only ſafe way to Salvation.</p>
+               <q>Sit anima mea cum talibus Chriſtianis.</q>
+            </div>
+            <div n="8" type="section">
+               <pb n="15" facs="tcp:137014:12"/>
+               <head>SECT. VIII.</head>
+               <p>Therefore the Modern Divinity of the Reformati<g ref="char:EOLhyphen"/>on is according to the Pattern of Chriſt on Mount <hi>Si<g ref="char:EOLhyphen"/>on,</hi> not of <hi>Moſes</hi> on Mount <hi>Sinai,</hi>
+                  <note place="margin">Right Preach<g ref="char:EOLhyphen"/>ing.</note> agreeable to the Senſe, Language, and St<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>le of the New Teſtament, agreeable to Senſe and Reaſon drawn from the New Teſtament, explaining the great Points of Grace, Faith, Repentance, Juſtification, Rege<g ref="char:EOLhyphen"/>neration, Adoption, Election, &amp;c. for edification of Souls, without the tincture of Legends of Saints, Mi<g ref="char:EOLhyphen"/>racles and Reliques, Penances, Prayers to Saints or Angels, Devotion to Images or the Croſs, or to the Hoſt, without School Subtilties or Flouriſhes of Elo<g ref="char:EOLhyphen"/>quence falſly ſo called, without Enterludes or Maſque<g ref="char:EOLhyphen"/>rades upon the Paſſion, Reſurrection or Aſcenſion, &amp;c. which things have a ſhew of Holineſs, but nothing of the Power of Godlineſs at all in them, to pleaſe God at all. Therefore the Modern Doctrine Diſcipline and Worſhip of the Reformation is agreeable to the pure Antient and Spiritual Doctrine, Diſcipline and Worſhip of God in that true evangelical Diſpenſation after the Aboliſhment of <hi>Moſe</hi>'s Law without Carnal Pomp and Ceremonies, directed to God above through Jeſus Chriſt, without any Applications to Saints or Angels or Images, without Prayers in an unknown Tongue, Half Communion, Penances, Pilgrimages, Vows, Offerings at Shrines, Prayers to or for the dead, which things have a ſhew and form of Godlineſs pleaſing to the Fleſh, but nothing of the power or ſub<g ref="char:EOLhyphen"/>ſtance of Religion to pleaſe God.</p>
+               <p>This honeſt preaching of God's word, and plain form of Publick Worſhip by ſolid Prayers, Interceſſi<g ref="char:EOLhyphen"/>ons, Praiſes, Thanksgivings and Benedictions, fitting for all conditions, at all times, is the true Modern Chriſtian Service, for Uniformity in Knowledge and
+<pb n="16" facs="tcp:137014:13"/>Devotion in Spirit and Truth in the publick Congre<g ref="char:EOLhyphen"/>gation: leaving every man to liberty of Conſcience, in Reading and Praying in his Family, or in his Clo<g ref="char:EOLhyphen"/>ſet, that all may be done for Edification, Decently and in Order.</p>
+               <p>And if all Proteſtants would ſubmit, as they are commanded, to the publick hearing of God's word, and to the publick Worſhip as it is by Law eſtabliſhed, in the freedom of the Spirit and Faith, though they ſcruple at ſome few indifferent Rites to which they are not in Bondage, reſerving their liberty of opening to themſelves; they ſhould do no more, then what all Jews did, and what all Heathens did, and what all Papiſts did and do, and what all other Proteſtants and Chriſtians over all the World do, keeping peace, though they are not all agreed in other things. Why ſhould our Diſſenters be ſtrangers to all Chriſtendom beſides?</p>
+               <p>And this the Poor People would quickly do, if their private Teachers would conform and teach them to do the like, which is the thing ſo greatly deſired, and to which they have been ſo long woo'd with all kind<g ref="char:EOLhyphen"/>neſs and encouragement imaginable. O when will they once look upon their dear Mother the Church of <hi>England,</hi> whom they have pierced, for ſhe is ready to look upon them, as God is, with the eye of tender pity and compaſſion! Her Bowels yearn upon her Children, who that they may be und<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ceived, let them know that the bottom of the buſineſs is this. The Politick Great ones, pretending to the Title, aim ſtrong<g ref="char:EOLhyphen"/>ly at theſe two things.</p>
+               <list>
+                  <item>1. At the Power Regal.<note place="margin">Policy.</note> Thrones are brave things.</item>
+                  <item>2. At Crown Lands, Church Lands, and Nobilities and Gentries Lands: Theſe are fat morſels. Nobles ſhall embrace Dunghills, and Slaves ſhine in purple and Scarlet.</item>
+               </list>
+               <pb n="17" facs="tcp:137014:13"/>
+               <p>Theſe great Dogs ſhall ſwallow the rich prey, the little Curs bark aloud, and ſtarve: You fat Citizens and Countrey Farmers, ſhall ſpend your Bloods and Eſtates, and be turn'd off with Debentures to the pub<g ref="char:EOLhyphen"/>lick Faith, till you be as poor as <hi>Job,</hi> and as very Slaves as the <hi>African</hi> Negroes: Ile promiſe you Goſpel<g ref="char:EOLhyphen"/>lers ſhall get Sequeſtrations of your Brethrens Livings, but the Claſſes and Aſſemblies ſhall never be able to ſet up the Stool of Repentance, nor tyrannize over the Gentry of every Pariſh by the Aſſiſtance of Weavers and Taylors and your Lay Elders. You may remem<g ref="char:EOLhyphen"/>ber when you were uppermoſt, your Patrons never truſted you with Power, nor with the Kings, Nobilities or Gentries or Churches Revenues. Stand off. But the Independants, Anabaptiſts, Quakers, having the longeſt Sword would not ſtand off, but took the Power and Eſtate too: and the leaſt Dog of yours durſt not open his mouth againſt your dear Brethren. Then were you fairly wip't of all. Then you whin'd and cryed to bring in the King, and upon his knees too, if you could, for your own ends. And now you are not plea<g ref="char:EOLhyphen"/>ſed, what does infatuation preſage? They ſay,</p>
+               <q>Quos Jupiter vult perdere hos dementat.</q>
+               <p>But you may do a great deal of miſchief before that time: But you may repent alſo, and then that time ſhall never come. And as a Motive to your Repen<g ref="char:EOLhyphen"/>tance, I'le be a Prophet for once, that never was a Prophet before.</p>
+               <p>Your own Lay-Maſters and Protectors will engage you to do their work for them, and when they have done, they will fill their own Bellies, and turn you off to live upon the Bridle. For Treaſon is liked, but the Traytor loathed. And if you will not believe me,
+<pb n="18" facs="tcp:137014:14"/>Look over into <hi>Scotland</hi> in <hi>Knocks</hi> his time; Look beyond the Seas into <hi>Holland, Germany, Hungary, Sweden, Denmark, Norway,</hi> &amp;c. Obſerve their Cler<g ref="char:EOLhyphen"/>gy, Superintenders, and Lay-Adminiſtrators, where the Name of Biſhop will not down, but their Eſtates are gone down glib into Lay-mens Stomacks, and are very well digeſted: But the new-named Clergy are put off with a Bit and a Knock, pitiful dependent Pen<g ref="char:EOLhyphen"/>ſioners, and Trencher-Chaplains, eaſily blown away by the Blaſt of their Great Dons, or the Puff of a Lur<g ref="char:EOLhyphen"/>dy Burger.</p>
+               <p>Laſtly, for I am tired in this Odious Subject; Beſide the moſt deplorable Atheiſm daily increaſing, and the Diſtractions in the Religion that is left,<note place="margin">Rebellion.</note> multiplying upon us, by reaſon of the Spirit of Rebellion, not only the Prince is affronted by his Subjects, the Magiſtrate by his Citizens, the Paſtor by his Flock, but every Pa<g ref="char:EOLhyphen"/>rent by his Children, and every Maſter of a Family by his Servants. So that if there were no other end but the benefit of enjoying our Temporal Rights, we had need to pray for Kings, and for all that are in Autho<g ref="char:EOLhyphen"/>rity, that we may lead a quiet and peaceable life here in common honeſty, which can never be expected in ſuch a ſtate of Rebellion as we are now in: From which Good Lord deliver us. <hi>Amen.</hi>
+               </p>
+               <p>Do but conſider, If you ſhould break out into Re<g ref="char:EOLhyphen"/>bellion the Second time, how many young poor Crea<g ref="char:EOLhyphen"/>tures would you draw away in the ſimplicity of their Souls, as if it were Gods cauſe; but eſpecially what multitudes of forlorn, hungry, Deſperados, Banditi, and angry Fellows would follow you, for prey and plunder of Churches and Palaces, to the Ruin of the King, Nobility, Clergy, Gentry, Merchants, Citi<g ref="char:EOLhyphen"/>zens, and Yeomen. Conſider how you would rake
+<pb n="19" facs="tcp:137014:14"/>Hell for a Brood of Hypocrites with Bibles on their Knees, Writers of Sermons, Preachers, Prayers, and Singers of Pſalms, but men of Blood.</p>
+               <p>Theſe men, if they had been right in their Princi<g ref="char:EOLhyphen"/>ples, and had they not been engaged in a damnable Cauſe, were the beſt Souldiers in the World, for Va<g ref="char:EOLhyphen"/>lour, Diſcipline, Thrift, Sobriety, and Temperance; as brave Fellows as ever drew Sword for <hi>Alexander, Caeſar, Pompey,</hi> or <hi>Hannibal,</hi> give them their due, and no leſs a Terror to the whole World.</p>
+               <p>The Royal Party had Religious and Gallant Men, that ventured their Noble Lives and Fortunes, and made proof of their undaunted Courage, but wanting the Sinews of War, could not keep the Common Soul<g ref="char:EOLhyphen"/>dier in Obedience to war-like Command, who, having the Sword, could not be reſtrained from Violence and Plunder, no more than from Debauchery and Profane<g ref="char:EOLhyphen"/>neſs, which was their Ruine.</p>
+               <p>By this we ſee the advantage of exact Diſcipline in War, and that the Name of Gentry cannot carry it: And that the Commons by Nature have as good Limbs, and as ſtout Hearts as any, and ſome by Education be<g ref="char:EOLhyphen"/>come as Gentile as the beſt, witneſs the Army of <hi>Cromwel</hi> made the School of Civility. They knew their Cauſe was bad, and therefore wiſely took this Courſe, to imitate the Gentry, to baniſh all open Swearing and debauchery, for which they were high<g ref="char:EOLhyphen"/>ly to be commended. But for Pride, Perjury, Cruel<g ref="char:EOLhyphen"/>ty, Sacriledge, and Lyes, they were the Wonder of the World.</p>
+               <p>Who is then the Gentleman, but he that doth the Gentle Deeds?</p>
+               <p>Who is then the Honeſt man, but he that holds the Truth in Righteouſneſs, by ſubmitting to all Laws,
+<pb n="20" facs="tcp:137014:15"/>that is, by fulfilling all Righteouſneſs, with a true heart and a pure life.</p>
+               <p>One thing more to me is a great Myſtery, even of Iniquity. To the Presbyterians, the Principal Party that firſt Rebelled, there did accrue according to the Nature of Acceſſories, the Independants, Anabaptiſts, Quakers, <hi>&amp;c.</hi> fighting altogether as in one Body a<g ref="char:EOLhyphen"/>gainſt the King. When they ſaw their time, they roſe up againſt their Maſters, and ſmote them Hip and Thigh, and turned them out of the Houſe and Field: Afterward they turned out one another, till the King came, whoſe Right it was, and turned them all out.</p>
+               <p>The Thing that I admire, is This, That hating one another as they do, for their Principles and Practices, even unto death, and ready to cut one anothers throats, yet they ſhould be all ſo ready upon the leaſt overture to be made againſt the King or the Church, immediate<g ref="char:EOLhyphen"/>ly to fall in altogether as one man.</p>
+               <p>I cannot unfold this Riddle, but I find, for what Cauſe I wot not, that they are altogether as impla<g ref="char:EOLhyphen"/>cable to the Church of <hi>England,</hi> as they are to the Church of <hi>Rome,</hi> and ſeem to be as great Enemies to the Common Prayer, which is the Publick Worſhip of the Church of <hi>England,</hi> as they are to the Maſs, which is the Publick Worſhip of the Church of <hi>Rome.</hi>
+               </p>
+               <p>And as the Papiſts teach their People to nickname us <hi>Hereticks,</hi> ſo they teach their People to call us Po<g ref="char:EOLhyphen"/>piſh or Papiſts in Maſquerade: Father forgive them both, for they know not what they do. Mad on both ſides.</p>
+               <p>And as the Papiſts profeſs and practiſe Rebellions and Murders, I would to God the Fanaticks did not the like.</p>
+            </div>
+            <div n="9" type="section">
+               <pb n="21" facs="tcp:137014:15"/>
+               <head>SECT. IX.</head>
+               <p>They ſay the finding out of the Diſeaſe, is half the Cure.</p>
+               <p>
+                  <note place="margin">Church of <hi>Eng<g ref="char:EOLhyphen"/>land.</hi>
+                  </note>The Reformed Religion as it is now eſtabliſhed in the Church of <hi>England,</hi> abating humane Imperfecti<g ref="char:EOLhyphen"/>ons, in the Judgment of the wiſeſt Chriſtians abroad, (who would be glad to be in our condition,) except the Papiſts and Fanaticks, is acknowledged to be the pureſt and freeſt from all Idolatry and Superſtition, and moſt reſembling the Primitive Church of any Re<g ref="char:EOLhyphen"/>ligion in the World, juſtly therefore reverenced as the Patroneſs and Protectreſs of all the Reformed Churches in <hi>Europe,</hi> a Siſter and Friend of the Church of <hi>Greece,</hi> and of the Churches in <hi>Aſia</hi> and <hi>Africa,</hi> beſides the Churches of <hi>Ruſſia, Muſcovia,</hi> &amp;c. of the <hi>Greek</hi> perſwaſion, that have not put their necks un<g ref="char:EOLhyphen"/>der the <hi>Roman-Yoke,</hi> nor bowed their knees unto <hi>Baal,</hi> and whoſe Mouths have not kiſſed him.</p>
+               <p>
+                  <note place="margin">Kingdom of <hi>England.</hi>
+                  </note>The Government of the Kingdom of <hi>England</hi> by the Laws of this Land, allowing humane failings, is owned by the wiſeſt Stateſmen abroad to be the beſt contrived Model that ever was projected out of the beſt Copies in the World. Wherein all Rights are ſo equally allaied for the Prerogative of the King, and for the Liberty of the Subject, for which all other Nations envy us, and wiſh for that Honour, Plenty and Freedom which we enjoy above them all, if we knew how to uſe our own happineſs, excepting only the Papiſts and Fanaticks. A Kingdom honoured and feared, favoured and enriched by the greateſt King<g ref="char:EOLhyphen"/>doms of the World, which are alſo honoured and en<g ref="char:EOLhyphen"/>riched by her, and glad of her Protection.</p>
+               <pb n="22" facs="tcp:137014:16"/>
+               <p>
+                  <note place="margin">Change of Go<g ref="char:EOLhyphen"/>vernment.</note>So then, to endeavour the Diſcompoſure or Over<g ref="char:EOLhyphen"/>throw of ſuch curious Frames and ſtately Fabricks as theſe, muſt needs be moſt horrid Malice, Un<g ref="char:EOLhyphen"/>thankfulneſs, and unnatural Rebellion, the Occaſion of Atheiſm, Barbarity, Slavery, and Confuſion, in my poor and weak Apprehenſion. What other Nation in the World ſeeks to alter their Governments as we do? To introduce a Change of either of theſe, or both into any other form (if ever it can be done,) muſt be the Change of the whole Body of the Laws, for where the Principality or Prieſthood is changed, there muſt alſo of neceſſity be a Change of the whole Laws, and that cannot be without great Diſtraction, the work of an Age at leaſt, and wiſer Lawyers and Stateſmen then they are able to find of their own Par<g ref="char:EOLhyphen"/>ty; in which time after a troubled and perplexed life, and much bloodſhed, and vaſt Treaſures exhauſted, the Engineers will be all dead and rotten, and their Names ſtink as bad as their Carcaſſes, and that's the juſt reward of Innovators, Rebels and Overturners of Church and State, with whoſe tainted blood good Subjects will ſcorn to mix, by matching into ſuch Re<g ref="char:EOLhyphen"/>bellious Families. The Genius of the <hi>Engliſh</hi> beſt ſuites with Monarchy and Epiſcopacy, into which, af<g ref="char:EOLhyphen"/>ter all trials of Alterations, to no purpoſe, as into a Center, the People will naturally fall, as they have ever done, and there ſettle, thrive and flouriſh, and Rebels, become the ſcorn of Mankind. Which of all our Neighbours, offer to do as we do? Never contented! If they change at any time, it is by the fortune of War, full ſore, poor Souls, againſt their Wills, they rue thoſe changes to be ſure, and fain would help it, God knows, if they could tell how. Is it not a Thouſand pities, ſo good a Prince, ſuch wiſe Counſellers, ſuch learned Divines, and Profeſſors
+<pb n="23" facs="tcp:137014:16"/>of all Faculties, ſhould be forſaken and ruined, by Ig<g ref="char:EOLhyphen"/>norant and Wicked Upſtarts, the whole World hath not the like brave and gallant men for Wiſdom and Valour, as we have.</p>
+               <q>Oro miſeremini Laborum tantorum, miſere<g ref="char:EOLhyphen"/>mini Animorum tantorum, non digna ferenti<g ref="char:EOLhyphen"/>um! <hi>O when will it once be!</hi>
+               </q>
+               <p>There are troubles enow in this life, that will come upon us whether we will or no, we had not need to pull down Calamities upon our ſelves, in this ſhort time that we have to live.</p>
+               <p>The Troublers of this Church and State, and con<g ref="char:EOLhyphen"/>ſequently of themſelves and their Poſterity will be baffled at laſt, in their unreaſonable, and unſeaſonable undertakings, by one another, as they have been, not agreeing who ſhall be the Greateſt, each Party ſtri<g ref="char:EOLhyphen"/>ving to be uppermoſt, juſtling the other either out of the World or out of all comfortable enjoyments in the World, to the Shame and Ruine of Mankind. They may labour in the very Fire, and be burnt to Aſhes. It is in vain to remove Mountains, to dig through Rocks of Steel, to cut <hi>Iſtmu's</hi> for Oceans to meet: Nature will not bear ſuch huge Affronts. It is in vain to kick againſt the Pricks, to Erect Caſtles in the Air, to build Babel-Towers to climb up to Heaven, to fight againſt God, they that do ſuch things muſt be broken in pieces. The poor deluded People will rue it full ſore, and be wiſe, too late, when they are ſoundly bang'd, made Slaves and Beggars by Lords of miſrule of their own creating, and periſh at laſt for going the ſame mad confounded way to work as their Fathers did in Forty one; in purſuance of ſuch un<g ref="char:EOLhyphen"/>warrantable and unpracticable Reformations, under
+<pb n="24" facs="tcp:137014:17"/>the gilded notions of ſetting Chriſt upon his Throne, and making <hi>Charles</hi> the Firſt a glorious King, of ſer<g ref="char:EOLhyphen"/>ving the Lord with one Lip and with one Shoulder, to reſtore the Paths to dwell in, repair the breaches and build up the waſt places. As many as will be Wiſe, and Innocent, and ſafe, let them ſuffer themſelves, at long running, to be better inſtructed, and Regulated, and new molded once more into better manners, ac<g ref="char:EOLhyphen"/>cording to the Wiſdom and Authority of their lawful Governours, who offer themſelves to be their Phy<g ref="char:EOLhyphen"/>ſicians and Saviours, even againſt their Will, plucking them as Firebrands out of the Fire, who otherwiſe would conſume themſelves and their Betters, as they have done in our days, we can ſpeak it by woful expe<g ref="char:EOLhyphen"/>rience.</p>
+               <p>And this is to be done no better way, next to the Miniſters preaching of the Goſpel and living up to the Rules thereof, and obeying the Diſcipline of the Church, then by the Juſticiary Execution of the Laws of the Land, <hi>Cum favore,</hi> That is with all reſpect and kindneſs as the Law can afford to harmleſs and tender Conſciences, not ſparing the obſtinate, having com<g ref="char:EOLhyphen"/>paſſion of ſome, making a difference, by ſaving others with fear, pulling them out of the Fire, ſtudying all ways how to do them good that are docible, and in<g ref="char:EOLhyphen"/>clining to obedience and goodneſs, providing for their ſafety, and our own, allways remembring that we our ſelves may be tempted, leſt Satan ſhould get an advantage of us, for we are not ignorant of his de<g ref="char:EOLhyphen"/>vices. What elſe can be ſaid or done? That we might not allways be at this paſs? But have ſome hopes of Union in the Publick Worſhip at leaſt. I am certain all wiſe and peaceable men will preſently an<g ref="char:EOLhyphen"/>ſwer and ſay, this is very true, this is a very good way, and more, what better wits ſhall propound, to<g ref="char:EOLhyphen"/>wards
+<pb n="25" facs="tcp:137014:17"/>Accommodation, but not out of a better mean<g ref="char:EOLhyphen"/>ing I am ſure, than I do.</p>
+               <p>I will add, but one ſhort, ſmart ſeaſonable <hi>Memen<g ref="char:EOLhyphen"/>to</hi> more, to all and for all, and for the good of all, and for good and all, and to conclude all, and it is this.</p>
+               <p>We are in extremity, as <hi>Jacobs</hi> Family was in a time of Famine, Why do we ſtand looking one upon another? Why do we not rather look up unto God, and look out altogether for help where God hath provi<g ref="char:EOLhyphen"/>ded it for us? Let us go and buy us a little Food, to keep us from ſtarving. There is Corn enough in <hi>E<g ref="char:EOLhyphen"/>gypt,</hi> there is Balm in <hi>Gilead,</hi> it wants fetching.</p>
+               <p>Some men among us do us much miſchief, we know who they are, if we let them alone, all the Sons of <hi>Belial</hi> will run after them, to help forward the Af<g ref="char:EOLhyphen"/>fliction. And what then? The next is, <hi>Venient Ro<g ref="char:EOLhyphen"/>mani,</hi> the Romans will come, we know who they are too, that long to invade this our Paradice, unleſs the Flaming Sword of God's Guardian Angels ſtand Cen<g ref="char:EOLhyphen"/>tinel to keep them out. When they come, they do not uſe to come alone, nor unprovided, and they threaten no leſs, then to take away our Religion, Place and Nation. And our Diviſions juſt now open the way for them ſo to do.</p>
+               <p>This is a juſt fear which may very well fall upon a wiſe and valiant People, which may be a ſure means to drive them into a firm and laſting Peace, for the Common ſafety, with all ſpeed. And then, who knows, or dares ſay to the contrary, but that by God's help upon our ſerious Repentance, we may prevent their coming, or if they do attempt it, force them back again with a vengeance: If <hi>Engliſh</hi> men, have but <hi>Engliſh</hi> hearts, to be true to God and their King, and not ineddle with them that are given to change.</p>
+            </div>
+            <div n="10" type="section">
+               <pb n="26" facs="tcp:137014:18"/>
+               <head>SECT. X</head>
+               <p>
+                  <note place="margin">Two Handles to every thing.</note>
+                  <hi>Epictetus</hi> ſaith very wittily, That every thing hath Two Handles, the Right and the Left; that is one Right and the other Wrong.</p>
+               <p n="1">1. Every thing, which is Right in its ſelf, muſt needs be Right, and every thing that is wrong in its ſelf, muſt needs be wrong, but that which is Right in its ſelf, is ſometimes underſtood, or taken up into the Underſtanding for Right, by the right Apprehenſion, or right Handle, as you would ſay, of the thing which is ſo right in its ſelf.</p>
+               <p>And again, the ſame thing which is right in its ſelf, is ſometimes underſtood, or taken up into the Under<g ref="char:EOLhyphen"/>ſtanding for wrong, by the wrong Apprehenſion, or left Handle, as you would ſay, of the thing which is ſo right in its ſelf.</p>
+               <p n="2">2. Every thing which is wrong in its ſelf, muſt needs be wrong, and is ſome times underſtood, or ta<g ref="char:EOLhyphen"/>ken up into the Underſtanding for wrong, by the right Apprehenſion, or right Handle, as you would ſay of the thing which is ſo wrong in its ſelf.</p>
+               <p>And again, the ſame thing which is wrong in its ſelf, muſt needs be wrong, and is ſome times under<g ref="char:EOLhyphen"/>ſtood or taken up into the Underſtanding for right, by the wrong Apprehenſion or left Handle, as you would ſay of the thing which is ſo wrong in its ſelf.</p>
+               <p>Note, That the Truth hath no handle properly, nor needs no Handle, but is right allways, and offers to come up into our Underſtandings right as ſhe is. But is handled ſome times gently and right, and ſome<g ref="char:EOLhyphen"/>times rudely and wrong, according as they that handle her prove to be right or wrong. For ſhe is <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rangely toſt up and down to ſome tune, by thoſe that know
+<pb n="27" facs="tcp:137014:18"/>not her beauty and worth. As a <hi>Diamond</hi> is root<g ref="char:EOLhyphen"/>ed up and turned over and over by a Swine in the Mire.</p>
+               <p>This is true eſpecially in all doubtful and controver<g ref="char:EOLhyphen"/>ted things, ſome are taken rightly as they are, and ſome are miſtaken wrongly as they are not, becauſe both cannot be right and wrong. But in matters of real Faith, as in matters of right Reaſon they are both ſo clear, the one by Divine Revelation, and the o<g ref="char:EOLhyphen"/>ther by Divine Inſtinct and each ſo firmly and con<g ref="char:EOLhyphen"/>ſtantly and univerſally believed and proved by all Faithfull and rational men, that they may be ſaid to have no Handle at all, much leſs two, one right and the other wrong, for they cannot be right and wrong, nor believed and proved as right and wrong, but certainly are right, and cannot be wrong, or elſe our Faith and Reaſon had no ſure Foundation, as undoubtedly they have.</p>
+               <p>Thus God our Creator, and Chriſt our Redeemer, and the Holy Ghoſt our Comforter, and the Catholick Church, and the Communion of Saints, the Forgive<g ref="char:EOLhyphen"/>neſs of Sins, the Reſurrection of the Body, and the Life Everlaſting, are moſt certainly true in themſelves, as they moſt certainly are believed, and moſt cer<g ref="char:EOLhyphen"/>tainly revealed to us, and by Reaſon imprinted in us without miſtakes in the main, needing no Judge for them at all; for ſuch Spiritual things are Judged of God, and are to be judged of no man, ſo carrying the Naked Truth in themſelves as to be clear to all men, and no Diſputes about them at all, becauſe they are from God and not from men, and true as God is true. And Men can no more be deceived in them, then they can be deceived in God. And therefore there is more certainty in Religion and Reaſon, then there is, or can be in any thing elſe,<note place="margin">Evidences.</note> ſay all the Mathematicians
+<pb n="28" facs="tcp:137014:19"/>or Philoſophers in the World what they pleaſe. The Teſtimony of God is ſure, and we are all his Offspring, and we all know his Will, and if we will not believe what we know to be true, we are without all excuſe. Nor can the Revelations of Faith, and Impreſſions of Reaſon be any more queſtioned than the Light of the Sun can be queſtioned to be the cauſe of life and growth of all the Creatures in the lower World. And the evidence of things ſeen, and heard, and felt, and ta<g ref="char:EOLhyphen"/>ſted by the mind, is as Scientifical a Demonſtration, as the evidence of things ſeen, and heard, and felt, and taſted by the Body.</p>
+               <p>To b<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lieve in God, is to believe all that is of God, as well Spiritual things as Corporeal, and to deny Spiritual things or beings, is all one, as to deny God's Spirit or God's being.</p>
+               <p>As for the Conſequences and Deductions from right and true Faith and Reaſon in their ſeveral Modificati<g ref="char:EOLhyphen"/>ons and Qualities,<note place="margin">Conſequences:</note> I cannot ſay but that they are and may be wrong and falſe, and ſo we may be deceived.</p>
+               <p>As for inſtance concerning Faith, Juſtification, Re<g ref="char:EOLhyphen"/>generation, Adoption, New Creation, Union and Communion with Chriſt, <hi>&amp;c.</hi> Theſe if you will may have two Handles<g ref="char:punc">▪</g> but, they are both of our own making, not God's, the right and the left, and the left be ſure is the wrong, according as our Apprehen<g ref="char:EOLhyphen"/>ſions, Believings or Reaſonings are right or wrong.</p>
+               <p>
+                  <note place="margin">Vide my Book of the differen<g ref="char:EOLhyphen"/>ces of the Two Covenants.</note>If therefore in any point of Controverſal or Con<g ref="char:EOLhyphen"/>ſequential Divinity I have taken the left or wrong Handle, I am a Man, and 'tis my miſtake, as a man, and when I am convinced of my Errour, I will in<g ref="char:EOLhyphen"/>geniouſly confeſs it, repent of it, and mend it if I can. But if I have taken the right Handle, I muſt not alter, and let Reaſon be Judge in all men, which in ſome will be for me, and in ſome againſt me.</p>
+               <pb n="29" facs="tcp:137014:19"/>
+               <p>There is no Queſtion to be made of the truth of God, of Chriſt, of the Spirit of Regeneration, New Creation, Union and Communion with God by the Spirit, and of Juſtification, Sanctification, Election, Faith, Adoption, Preſence of Chriſt, that there are ſuch things, as all Chriſtians Grant.<note place="margin">Modes.</note> But in the Man<g ref="char:EOLhyphen"/>ner of our Regeneration, New Creature, Union and Communion with God, and of our Juſtification, Sanct<g ref="char:EOLhyphen"/>ification, Election, Faith, Adoption, Preſence of Chriſt, &amp;c. there are too many and great Queſtions, and too many Diſputes <hi>Pro</hi> and <hi>Con</hi> about them, ſome of them grating too much upon Barbarity and Pro<g ref="char:EOLhyphen"/>faneneſs, as to be Godded with God, and Chriſted with Chriſt, and that there is no other Chriſt, nor Light, nor Heaven, nor Hell but what is in us, and Juſtification, and Sanctification, Law and Goſpel are blended together, and ſome of thoſe contrary Poſitions may not be hurtfull on either ſide, and ſome are. But chiefly the manner of Chriſt's Preſence, in the Holy Supper is become a bloody Queſtion, and in moſt ſuſ<g ref="char:EOLhyphen"/>penſe with leaſt cauſe, in which there are two bold and Magiſterial Aſſertions made <hi>de fide,</hi> of Tranſub<g ref="char:EOLhyphen"/>ſtantiation, and Conſubſtantiation, very hurtfull and dangerous to the overthrowing of the Faith of ſome. But ſtill there is a Preſence, and the Spiritual Preſence is ſafe, to be ſure that can do no harm, and is moſt profitable, and the Carnal Preſence can do no good, but may do harm.</p>
+            </div>
+            <div n="11" type="section">
+               <head>SECT. II.</head>
+               <p>
+                  <note place="margin">Liberty of Opi<g ref="char:EOLhyphen"/>ning.</note>I claim therefore the Liberty of Opining due to all Mankind, moſt modeſt and ſafely as they may that differ in Opinion from me, and both may be good, and both preſerve Love and Charity, and let Poſterity
+<pb n="30" facs="tcp:137014:20"/>Judge of both, and chooſe which they like beſt, if they be both ſafe, and impinge not upon God, nor hurt the Souls, Bodies, Eſtates or Honours of Men.</p>
+               <p>The Church of <hi>Rome</hi> is pleaſed to call our Differen<g ref="char:EOLhyphen"/>ces from them by the odious nick-name as they have made it, of Hereſies, and falls to Perſecution of all Diſſenters, called by them Hereticks, as far as <hi>de Hae<g ref="char:EOLhyphen"/>reticis comburendis.</hi> O certainly this is a moſt inhu<g ref="char:EOLhyphen"/>mane, as well as moſt Unchriſtian Practice, and no true Proteſtant, I am ſure, will ever follow them in it, no not a far off, nor come ſo near as to Plundering, Se<g ref="char:EOLhyphen"/>queſtration or Conſiſcation, becauſe by theſe though they kill not outright, as the Papiſts do, yet they ſtarve them, by a lingring death, which in ſome ſenſe is as bad or worſe. And bloody Religions cannot be true.</p>
+               <p>The Ventilation of ſome Problems on both ſides, if moderately and charitably managed may tend to much Truth, Peace and Love. But if we come to Railing, Fighting, Undoing and Killing, farewell all Religion, Liberty and Peace.</p>
+               <p>The Effects of our Faith, Juſtification, Regene<g ref="char:EOLhyphen"/>ration, Union and Communion with Chriſt, we know and feel, which we call the work of Grace; But the Manner how the Cauſes work ſuch Effects, we do not know. For the wind of this Spirit bloweth where, and when, and how it liſteth, and we know not where it cometh nor whither it goeth, and 'tis in vain, and ſin<g ref="char:EOLhyphen"/>ful to pry too far into theſe Secrets of God's workings, and therefore Faith, Reverence and ſilence in theſe ca<g ref="char:EOLhyphen"/>ſes is always the ſafeſt. But ſtill Peace and Charity are to be maintained by all means, or elſe we ſpoil all. In Sum this is all, I do but deſire to have fair play for my pains, and hurt no body. And they that do not
+<pb n="31" facs="tcp:137014:20"/>like my Opinion, may let it alone, and give better if they can.</p>
+               <p>But to return to Demonſtration, the thing we aim at.</p>
+            </div>
+            <div n="12" type="section">
+               <head>SECT. XII.</head>
+               <p>The Demonſtration of God,<note place="margin">Demonſtration of God. Rom. <hi>1.19, 20.</hi>
+                  </note> is by his Creatures. Becauſe that which may be known of God, is manifeſt in them, for God hath ſhewed it unto them. For the Inviſible things of him from the Creation of the World are clearly ſeen, being underſtood by the things that are made, even his Eternal Power and Godhead.</p>
+               <p>The Demonſtration of God's Reward is his Son.<note place="margin">
+                     <hi>Joh.</hi> 6.45, 46.</note> Every man therefore that hath heard and hath learned of the Father, cometh unto me. Not that any man hath ſeen the Father ſave he which is of God, he hath ſeen the Father. He that believeth on me hath e<g ref="char:EOLhyphen"/>verlaſting life.<note place="margin">
+                     <hi>Matt.</hi> 11.27.</note> All things are delivered unto me of my Father, and no man knoweth the Son, but the Father, neither knoweth any man the Father, ſave the Son, and he to whom ſoever the Son will reveal him. He that cometh from above, is above all,<note place="margin">
+                     <hi>Joh.</hi> 3.31, &amp;c.</note> and what he hath ſeen and heard, that he teſtifieth. He that hath received his Teſtimony hath ſet to his Seal, that God is true. For he whom God hath ſent, ſpeaketh the words of God, for God giveth not the Spirit by meaſure unto them. The Father loveth the Son, and hath given all things into his hand. He that believ<g ref="char:EOLhyphen"/>eth on the Son hath everlaſting life, and he that be<g ref="char:EOLhyphen"/>lieveth not on the Son ſhall not ſee life, but the Wrath of God abideth on him.<note place="margin">
+                     <hi>Joh.</hi> 5.9.10. &amp;c</note> He that believeth on the Son of God, hath the witneſs in himſelf, he that be<g ref="char:EOLhyphen"/>lieveth not God, hath made him a Lyar, becauſe he believeth not the Record that God gave of his Son. If
+<pb n="32" facs="tcp:137014:21"/>we receive the Witneſs of Men, the Witneſs of God is greater, for this is the Witneſs of God, which he hath teſtified of his Son. And this is the Record that God hath given unto us, eternal life, and this life is in his Son. He that hath the Son hath life, and he that hath not the Son hath not life. God was in Chriſt, reconciling the World unto himſelf,<note place="margin">2 <hi>Cor.</hi> 5 19.</note> and our life is hid with Chriſt in God.<note place="margin">
+                     <hi>Col.</hi> 3 3. <hi>Joh.</hi> 5.22.</note> The Father Judgeth no man, but hath committed all Judgment to the Son. He that ho<g ref="char:EOLhyphen"/>noureth not the Son, honoureth not the Father which hath ſent him. He that heareth my word, and be<g ref="char:EOLhyphen"/>lieveth on him that ſent me, hath everlaſting life, and ſhall not come into condemnation, but is paſſed from death, into life. As the Father hath life, in himſelf, ſo hath he given to the Son to have life in himſelf.<note place="margin">1 <hi>Joh.</hi> 4.14 &amp;c.</note> We have ſeen and do teſtify that the Father hath ſent the Son, to be the Saviour of the World, whoſoever ſhall confeſs that Jeſus is the Son of God, God dwelleth in him and he in God.<note place="margin">
+                     <hi>Joh.</hi> 1.18</note> No man hath ſeen God at any time, the only begotten Son, which is in the boſom of the Father, he hath declared him.</p>
+               <p>So he that hath ſeen Chriſt hath ſeen the Father by Faith, and in him all things, even the whole Will of God concerning our Salvation.</p>
+               <p>We can no more doubt of God, then of Chriſt. He that believes Chriſt, believes all, we need no more, becauſe Chriſt came from the boſom of the Father, therefore we can no more queſtion the one than the o<g ref="char:EOLhyphen"/>ther. He that believeth God believeth Chriſt, and he that believeth Chriſt believeth God, for Chriſt and his Father are one.</p>
+               <p>Our Knowledge by Faith is as ſure every way, as our Knowledge by Senſe. The Mind ſees, and Feels, and taſts, as certainly as our Body. The one ſees and
+<pb n="33" facs="tcp:137014:21"/>feels and taſts Intellectual beings, as fully as the other ſees and feels and taſts Corporeal beings.</p>
+               <p>He hath loſt his Nature, that looſeth God. For God is true as Nature, and Nature as God, who is the God of Nature. All that believe God, believe Na<g ref="char:EOLhyphen"/>ture, and all that believe Nature rightly, believe God. And all that deny Nature, deny God, one is as true as the other.</p>
+               <p>The Reaſon and Judgment believes God, the Un<g ref="char:EOLhyphen"/>reaſonable Will denys God.</p>
+               <p>We deny immediate Conſequences, which is un<g ref="char:EOLhyphen"/>reaſonable. We cannot deny Principles.</p>
+               <p>We can no more disbelieve God, that he is, than we can disbelieve that we are.</p>
+               <p>I Am, is as ſure of God, as we are, is ſure of us.</p>
+               <p>I Am, hath ſent me, to you that are. And becauſe I am, is, therefore we are, are by him, and are, from him, and in him, in whom we live and move and have our being, and from whom through Jeſus Chriſt, we hope for an everlaſting well being.</p>
+               <p>We are Creatures, as ſure as God is Creator. And God is Creator, as ſure as we are Creatures.</p>
+               <p>Relations imply one another, and are Members as ſure as the other, Relations are between two, and God is one, and we the other.</p>
+               <p>So the Father is the Sons, and the Son is the Fa<g ref="char:EOLhyphen"/>thers, one Relative demonſtrates the other.</p>
+               <p>This is certain, that God is, or 'tis certain that no<g ref="char:EOLhyphen"/>thing is.</p>
+               <p>Therefore we cannot ſay that God is not, becauſe ſomething is.</p>
+               <p>If God is, then it follows as certainly, that he is God.</p>
+               <pb n="34" facs="tcp:137014:22"/>
+               <p>And thence it follows that he is a Rewarder. And if he be a Rewarder then there are ſome to be reward<g ref="char:EOLhyphen"/>ed.</p>
+               <p>So that theſe Conſequences are as ſure, as the grounds from whence they are taken.</p>
+               <p>And if God be a Redward, he muſt be a Reward of thoſe that are good, for nothing is Rewardable, but what is good.</p>
+               <p>And if God be a Reward, he is alſo a puniſh<g ref="char:EOLhyphen"/>er.</p>
+               <p>And if God be a puniſher he muſt be a puniſher of thoſe that are bad, for nothing is puniſhable, but what is bad.</p>
+               <p>So if there be good, there muſt be bad, and if there be bad, there muſt be good.</p>
+               <p>And if Angels or Men be good, which are Crea<g ref="char:EOLhyphen"/>tures, and all other Creatures are very good. Then God muſt be good much more.</p>
+               <p>And if Devils and Men be bad, then the Devil muſt be bad much more.</p>
+               <p>And if God be a Redeemer, he muſt be a Rewar<g ref="char:EOLhyphen"/>der in Chriſt, as hath been proved.</p>
+            </div>
+            <div n="13" type="section">
+               <head>SECT. XIII.</head>
+               <p>
+                  <hi>Ob.</hi> How ſhall I know that?</p>
+               <p>
+                  <hi>Sol.</hi> 
+                  <note place="margin">Demonſtration of Faith in Chriſt.</note>Chriſt himſelf hath confirmed it by his Miracles, and God gave Teſtimony of him by a Voice from Heaven, and by all his Prophets and Apoſtles, and the Teſtimony of God is true. He did not bear wit<g ref="char:EOLhyphen"/>neſs of himſelf. Believe him for his works ſake.</p>
+               <p>
+                  <hi>Ob.</hi> I did not ſee his Miracles.</p>
+               <p>
+                  <hi>Sol.</hi> They that did ſee them have told us the things which they had ſeen and heard, and handled of the word of life. And theſe things they have written
+<pb n="35" facs="tcp:137014:22"/>that we might believe, and that by believing we might have life. And bleſſe are they that have not ſeen, and yet have believed. We believe other men for what they have ſeen and heard, and we never did, yet they wrought no Miracle, to Create Faith, but were honeſt men and worthy to be believed, and that was enought. Why then ſhould we not believe thoſe that did work Miracles, and were honeſt too?</p>
+               <p>Chriſt worked Miracles, and ſo did his Apoſtles, and therefore Chriſt and his Apoſtles were Teachers that came from God, for no man could ever work ſuch Miracles as they did, unleſs they were ſent of God.</p>
+               <p>
+                  <note place="margin">Doctrine or matter of Law.</note>Beſide their Teaching and Doctrine we believe to be true, becauſe we find it to be true by natural Rea<g ref="char:EOLhyphen"/>ſon in matter of Law.</p>
+               <p>Why ſhould we not believe their Relations to be true alſo, for matter of Fact. For ſuch men as preach<g ref="char:EOLhyphen"/>ed ſuch Doctrines and did ſuch Miracles, muſt needs make as true Relations of what they had taught and done for matter of Fact. Why ſhould this be the chief Scruple?</p>
+               <p>
+                  <note place="margin">Miracles or matter of Fact.</note>Was it impoſſible for God to work Miracles? We cannot ſay it. And did he not work Miracles? How can we but ſay it? What? did he not therefore work them, becauſe we ſaw them not? Others did, and they tell us of them; and they that did them, tell us what they did, and others that ſaw them, tell us what they did. Shall we believe no Body nor Thing un<g ref="char:EOLhyphen"/>leſs we ſee them? How do we believe God, whom we never ſaw? 'Tis by the Relation of his works, they tell us of him.</p>
+               <q>Monſtrat Quaelibet herba Deum.</q>
+               <pb n="36" facs="tcp:137014:23"/>
+               <p>The Heavens declare the Glory of God, and the Firmament ſheweth his handy work. Would not we that are honeſt be believed, that have ſeen and heard, and tell it to others?<note place="margin">Conveyance.</note> Why ſhould not Chriſt's Wit<g ref="char:EOLhyphen"/>neſſes be believed, when they tell the World what they have ſeen and heard? Even the wonderfull works of God? The Apoſtle could not but ſpeak pre<g ref="char:EOLhyphen"/>ſently after Chriſt's Reſurrection, with great boldneſs what they had both ſeen and heard. And though it be now long ſince to us that are now alive, yet they told it to them that were hard by them, and they told it to them that were next, and ſo one Generation con<g ref="char:EOLhyphen"/>tinued telling it one to another, and ſo down to our time, and we ſhall tell it to them that come after us to the Worlds end, there will never be an end of telling it. As the <hi>Jews</hi> did to their Childrens Children, &amp;c.</p>
+               <p>Is not this a poſſible and fair Conveyance? What can be deſired more?</p>
+               <q>
+                  <g ref="char:V">Ʋ</g>bique, Semper, ab Omnibus.</q>
+               <p>
+                  <hi>Ob.</hi> Some make falſe Reports.</p>
+               <p>
+                  <hi>Sol.</hi> Therefore true Reports are the more Believe<g ref="char:EOLhyphen"/>able. Some ſpeak as true as others ſpeak falſe, or elſe none ſpeaks true, which no Body can ſay.</p>
+               <p>
+                  <hi>Ob.</hi> How ſhall I be ſure who ſpeaks true or falſe?</p>
+               <p>
+                  <hi>Sol.</hi> By the Credit of the Witneſſes. We that are honeſt, know that we ſpeak true, and they that are honeſt do ſpeak true, and therefore all men are not falſe, but ſome are true. And by their works you ſhall know them whether their words be true. Now, Chriſt and his Diſciples went about doing all the good they could, Preaching Repentance to all, and healing every one that was diſeaſed of all manner of Infirmi<g ref="char:EOLhyphen"/>ties;
+<pb n="37" facs="tcp:137014:23"/>therefore they were true. And beſides, God was in them and with them to enable them to preach, and do Miracles. For never men ſpake as they ſpake, or did as they did, therefore both their words and works were all true, and therefore worthy of all acceptation and belief.</p>
+               <q>Quod erat. Demonſtrandum.</q>
+               <p>We ſhould take it very ill of others, if we know<g ref="char:EOLhyphen"/>ing the Truth to be in our hearts, the World ſhould a<g ref="char:EOLhyphen"/>buſe us for Lyars and Diſſemblers, and that we ſpeak not a word of Truth; when God knows, and our own hearts do know, that we ſpeak the Truth and nothing but the Truth, and that we do call God to witneſs for what we ſay or do, to deal with us no otherwiſe than as we mean honeſtly and juſtly in all that we ſay or do.</p>
+               <p>We believe our ſelves when we ſpeak truth. Why ſhould we not believe others that are as true men as our ſelves? But eſpecially ſuch as had power from God, the God of Truth, to confirm all their Doctrines and Miracles, which power we have not, and yet are true men. But they had therefore theſe extraordina<g ref="char:EOLhyphen"/>ry gifts confirmed upon them, not for their own ſakes, but for the ſakes of others, that they might believe by their Words and Deeds, to the Glory of God, and to the Comfort and Salvation of their own Souls in the day of the Lord Jeſus, when the Secrets of all hearts ſhall be diſcloſed, and we ſhall underſtand all truths without all Scruples; and when Faith and Hope ſhall ceaſe, becauſe we enjoy the things which we be<g ref="char:EOLhyphen"/>lieved and hoped for.</p>
+               <p>We cannot therefore ſay that nothing is true, for God is true, and God's People are true, and therefore ſomething muſt be true; and this, which is the word of God, if any thing, muſt be true.</p>
+               <pb n="38" facs="tcp:137014:24"/>
+               <p>But put the Caſe that men ſhould be ſo unreaſonable as not to believe, as ſome are, for all men have not Faith, becauſe they will not have it, though they might have it; and eſpecially to believe that which is moſt reaſonably, and worthy, and neceſſary, and moſt profitable to believe: That Jeſus Chriſt came in the Fleſh to ſave Sinners. I ſay, ſuppoſe men ſhould be thus far unbelieving as to matter of Fact, concer<g ref="char:EOLhyphen"/>ning Chriſt's coming in the Fleſh to dy and riſe again to ſave Sinners.<note place="margin">Doctrine.</note> Yet why will they not believe this plain Doctrine of ſo great a truth as is acknowledged by all; that God is to be worſhipped, that they ſhould work Righteouſnes, and do to all men as they would be done by, which is matter of Right in all and to all?</p>
+               <p>Whether Chriſt came in the Fleſh or no to ſave Sin<g ref="char:EOLhyphen"/>ners, yet to be ſure all men ought to be honeſt, why then are ſo many quite contrary in their practice, though in their mind they do agree as to common Ho<g ref="char:EOLhyphen"/>neſty? Though all men are ſo ſtubborn that they have not Faith, why ſhould they be ſo perverſe as to have no honeſty?</p>
+               <p>Now what they can ſay to this or the other, I know not, except they ſhall ſay, as they may truly, it is their own fault, if they do not believe nor live ho<g ref="char:EOLhyphen"/>neſtly. Why? Becauſe they will be high, they will be rich, becauſe they know there is no God, or wiſh ſo at leaſt. They will venture it.</p>
+               <p>Certainly every man as he would willingly be be<g ref="char:EOLhyphen"/>lieved when he ſays truth, ſo he would as willing be loved, when he does truth; that is, he would be ho<g ref="char:EOLhyphen"/>neſtly dealt withal every way by every man, with all his heart, as he is willing to deal honeſtly every way to every man with all his heart. And withall if there be Salvation they would be glad to be ſaved. Who
+<pb n="39" facs="tcp:137014:24"/>would not wiſh to dy the Death of the Righteous, and that his laſt end may be like unto his? The moſt wic<g ref="char:EOLhyphen"/>ked men after all would be glad to be happy: The wiſe tells them they muſt uſe the right way that leads to happineſs, and that calls no other than Holineſs.</p>
+               <p>Well, they that do live honeſtly are approved, tho not beloved, by the moſt dishoneſt. And they that do live dishoneſtly, are diſapproved and hated ſuffici<g ref="char:EOLhyphen"/>ently, by them that are moſt Honeſt. But what care they that are Atheiſts? But they that believe a God, will care.</p>
+               <p>But wiſe men do take care of all vitious Actions, of Hatred and Diſgrace by men, but not of God, and blame Fools that are ſo careleſs even of men, becauſe the poor that are oppreſſed by them, raiſe them to their ſames, and God much more.</p>
+               <p>Indeed and in truth they are the ſhame as well as grief of Mankind, whether they came for it or no. They may depart the world when they will, no Body will ſtop'um, they have their paſs, they ſhall never be miſt, I'le warrant'um.</p>
+               <p>As they regard nothing but Eating, and Drinking, and Luſting, and Oppreſſing, &amp;c. ſo who regards them, though their looks be never ſo high and ſcorn<g ref="char:EOLhyphen"/>ful?</p>
+               <p>But to leave theſe Miſcreants and this Diverſion.</p>
+               <p>I am extreemly troubled at the Church of <hi>Rome,</hi> that calls Divine Revelation into Queſtion, and when they have done, charge us for ſo doing, as if the truths that be ſo revealed, might not have been, or might have been otherwiſe. What odd expreſſions are theſe to come from wiſe men, of both ſides? I wiſh they would better think of it. The Papiſts glory,<note place="margin">Infallibility.</note> of the Infallibility of their Church, and therefore they are Cock-ſure. But 'tis we poor wretches, that want
+<pb n="40" facs="tcp:137014:25"/>this Infallibility, and conſequently this Aſſurance, What a caſe are we in, and what ſhall become of us?</p>
+               <p>I wiſh ſome of ours had better conſidered, than to affirm that the Grounds of our Faith are only probable, and might have been otherwiſe, ſo to give the Adver<g ref="char:EOLhyphen"/>ſary occaſion to inſult over us, for having no Church, nor no foundation for our Faith at all, ſo to overthrow our Religion, ſo to overthrow all Religion, if it were ſo, that that which is true may be falſe, then all may be falſe, and at laſt all is falſe, and where are we then?</p>
+               <p>As for Infallibility (the buſineſs ſo much boaſted of,) it is none but God, not the Church, nor all Man<g ref="char:EOLhyphen"/>kind, put all together, that have been, or are, or e<g ref="char:EOLhyphen"/>ver ſhall be. They may ſet their hearts at reſt, for they ſhall never find it, nor ſhew it us while this World ſtands.</p>
+               <p>But yet Chriſtian Religion is certain for all that.<note place="margin">Certainty.</note> And the grounds of Faith are ſuch as they have ever been, are, and ever ſhall be, and could never be o<g ref="char:EOLhyphen"/>therwiſe, though there be no Infallibility in men at all. The Foundation of God ſtandeth ſure, be men never ſo changeable and fallible. And God's word is more dureable than the Frame of the Univerſe. For though there be no Infallibility in men, yet there is Infallibility in God, and that's enough for us to believe; and the wiſeſt men truſt to it, and cannot fail of their hopes thereby. For we believe in God, and not in the Church, nor in Mankind. And this is our Foun<g ref="char:EOLhyphen"/>dation, here we fix, and reſolve our Faith into God.</p>
+               <p>Whether hath Pride and Malice driven us? Such is the Papiſts hatred againſt the Proteſtants, to make them odious to all the World, for having no Faith nor no Church. Though we hold the ſame Chriſt as
+<pb n="41" facs="tcp:137014:25"/>they do, and acknowledge that other Foundation can no man lay, than what is already laid, Jeſus Chriſt and him Crucified, and no other name given under Heaven, whereby we can be ſaved, but only by the Name of Jeſus Chriſt. And no Mediator between God and Man, but the Man Chriſt Jeſus.</p>
+               <p>They make the Infallibility of the Pope, or a Coun<g ref="char:EOLhyphen"/>ſel, or the Church to be the Ground of Faith.</p>
+               <p>We ſay God is the only Ground of Faith, he cannot deny himſelf. He will never leave nor forſake his Church, nor ſhall the Gates of Hell be ever able to prevail againſt her.</p>
+               <p>They therefore believe, becauſe the Church is In<g ref="char:EOLhyphen"/>fallible. But we believe, becauſe God is Infallible.</p>
+               <p>And what God hath revealed, he hath revealed to thoſe that are fallible, but the things revealed, are the Infallible Truths of God, and were never other<g ref="char:EOLhyphen"/>wiſe, nor never ſhall be otherwiſe; whether our Fa<g ref="char:EOLhyphen"/>thers have, or we do, or our Poſterity ſhall believe them or no.</p>
+               <p>'Tis no abſurdity to believe God and his Word to be Infallible, though we be fallible, and to ſtand the ever<g ref="char:EOLhyphen"/>laſting Objects of our Faith, though we be not the Subjects that embrace them.</p>
+               <p>I hope God is no leſs true, though man be a Lyar. And I hope the Goſpel is no leſs true, and the ſame for being believed, or disbelieved. God's word be<g ref="char:EOLhyphen"/>ing Eternal and unchangeable as himſelf.</p>
+               <p>Well, but all this while we are beating our Brains a<g ref="char:EOLhyphen"/>bout finding out the truth.</p>
+               <p n="1">1. The <hi>Athiest</hi> he believes nothing, but laughs at all. He goes on and lives and dies in Wickedneſs,<note place="margin">Atheiſts.</note> like a Beaſt hoping for no Salvation.</p>
+               <p n="2">2. The <hi>Papiſt</hi> he is the braveſt fellow,<note place="margin">Papiſts.</note> and in the ſafeſt Condition of any man in the World, for let him
+<pb n="42" facs="tcp:137014:26"/>ſin his heart out, he hath all his Pardons ready, if he ſhould live a Thouſand Years. 'Tis but whispring a word in his Confeſſors Ear, and liſtning to a word of Abſolution from him again, and he is purer than the Chyſtal Streams, and as clear as the Light it ſelf. He takes no care for himſelf, for the Church takes all the Care, and provides what he ſhould believe, and what he ſhould do, he need not trouble himſelf at all, un<g ref="char:EOLhyphen"/>leſs it be to go barefoot a little, or faſt, or whip a ſtroke or two, which he may buy off when he pleaſes according as his Purſe is. Nay to make all ſure, if he want Merits, thoſe Saints that have had more than they knew what to do with, have laid them up in ſtore to help their idle Brethren at a dead lift, and the Pope delivers them out at ſuch a Price as the Market goes for them, they are to be purchaſed every day. In a word, he is ſure, be he what he will, becauſe his Church is ſure. Sin and Confeſs, Confeſs and ſin, and ſo continue till you dy, and be reconciled to the <hi>Romiſh</hi> Church; and ſo at laſt you go to Heaven to rights.</p>
+               <p n="3">3. The <hi>Fataliſt.</hi>
+                  <note place="margin">Fataliſts.</note> Be he <hi>Jew,</hi> or <hi>Turk,</hi> takes as little care as the reſt, for there is a Lottery, thinks he, or a Doomſ-day Book. If he be in for a Prize or a Blanck he knows not, therefore Have at all; hit or miſs. If it be to come, it will come, once. If it never come, there is no remedy. He is loſt, God would have it ſo, and it muſt be ſo, no help for it,</p>
+               <p>So all alike aim to ſin as much as they can, and as long as they can. Thus men are willing to befool themſelves, and to charge God fooliſhly.</p>
+               <p>But they that walk Righteouſly, walk ſafely.</p>
+               <p n="1">1. Becauſe they are ſure of a good Report among the Saints here.</p>
+               <p n="2">2. Becauſe they are ſure of a good Reward with God hereafter. Knowing therefore the Terrors of God.
+<pb n="43" facs="tcp:137014:26"/>I wonder any ſhould dare to be Hypocrites. To hurt the World, to ſhame the World, to hurt themſelves, to ſhame themſelves, they are quickly gon. Their Eſtates are quickly vaniſht, their Names rot, and their Souls are everlaſtingly loſt.</p>
+               <p>Let them go, that are ſuch and will be ſuch, I will retire from their fellowſhip, and have nothing to do with them, for it is in vain: They do no good, nor ne<g ref="char:EOLhyphen"/>ver will.</p>
+            </div>
+            <div n="14" type="section">
+               <head>SECT. XIV.</head>
+               <p>
+                  <note place="margin">Agreement in Scripture Truth.</note>To come a little cloſer to the preſent Subject in Four Points.</p>
+               <list>
+                  <item>1. Agreement.</item>
+                  <item>2. Morality.</item>
+                  <item>3. Judge.</item>
+                  <item>4. Liberty.</item>
+               </list>
+               <p n="1">1. Agreement, all we agree that the Scriptures are the word of God.</p>
+               <p>The Truths therein contained, are beſt expreſt in Scripture Language. An honeſt man relates his own Story beſt in his own words, ſo declaring his own mind that he may beſt be underſtood.</p>
+               <p>Every wiſe Teſtator ſignifies his mind and pleaſure in his Will and Teſtament, without ſending his Heir to the Interpretation of Law.</p>
+               <p>Opinions for Faith are certain.</p>
+               <p>Opinions for Free Grace, Free Will, Election, Pre<g ref="char:EOLhyphen"/>deſtination, Original Sin, &amp;c. may be too narrow.</p>
+               <p>What Controverſies were about <hi>Eaſter-day,</hi> as if Eternal Happineſs had wholly depended upon it?</p>
+               <p>The like for the Words <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, between <hi>Alexander</hi> Biſhop of <hi>Alexandria,</hi> and <hi>Arius</hi> his Prieſt, and <hi>Athanaſius.</hi>
+               </p>
+               <pb n="44" facs="tcp:137014:27"/>
+               <p>The Creed of Chriſt and his Apoſtles is ſufficient without any more Creeds.<note place="margin">
+                     <hi>One Creed.</hi> 1 <hi>Tim.</hi> 6.3. &amp;c.</note>
+               </p>
+               <p>If any man teach otherwiſe, and conſent not to wholſom Words, even the Words of our Lord Jeſus Chriſt, and to the Doctrine which is according unto godlineſs, he is proud, knowing nothing, but doting about Queſtions, and ſtrifes of words, whereof cometh envy, ſtrifes, railings, evil ſurmiſings, perverſe diſ<g ref="char:EOLhyphen"/>putings of men of corrupt minds, and deſtitute of the truth, ſuppoſing that gain is godlineſs, from ſuch with<g ref="char:EOLhyphen"/>draw thy ſelf. But thou O man of God flee theſe things, and follow after Righteouſneſs, Godlineſs, Faith, Love, Patience, Meekneſs. Fight the good fight of Faith, lay hold on Eternal life whereunto thou art alſo called, and haſt profeſſed a good profeſſion, before many wit<g ref="char:EOLhyphen"/>neſſes.<note place="margin">
+                     <hi>Col.</hi> 2.8.</note> Beware leſt any man ſpoil you through Phi<g ref="char:EOLhyphen"/>loſophy, and vain deceit, after the Tradition of men, after the Rudiments of the World, and not after Chriſt. For in him dwelleth all the fulneſs of the Godhead bo<g ref="char:EOLhyphen"/>dily, and ye are compleat in him, which is the head of all Principality and Power.</p>
+               <p>The ſmalneſs of Chriſt's and his Apoſtles writings are full and plain. We admit of God, but cannot be content, unleſs we diſpute about his Nature, Power, and other Attributes, till we are loſt in them.</p>
+               <p>There is Chriſtian Liberty allowable for Opinions, but not for Articles of Faith.</p>
+               <p>Faith and Life are moſt to be regarded.</p>
+               <p>Controverſies beget Opinions, but Faith is only to be contended for: The whole Counſel of God is de<g ref="char:EOLhyphen"/>livered by Revelation, and Miracles. Believe me that I am in the Father,<note place="margin">
+                     <hi>Joh.</hi> 14.10.20.</note> and the Father in me, or elſe believe me for the very works ſake. At that day ye ſhall know, that I am in my Father, and you in me, and I in you. If I do not the works of my Father, believe me not.
+<pb n="45" facs="tcp:137014:27"/>But if I do, though ye believe not me,<note place="margin">
+                     <hi>Joh.</hi> 10.37.38.</note> believe the works, that ye may know and believe, that the Fa<g ref="char:EOLhyphen"/>ther is in me and I in him.<note place="margin">
+                     <hi>Joh.</hi> 15.24.</note> If I had not done among you the works which no other man did, they had not had ſin, but now have they ſeen and hated both me and my Father. <hi>Simon Peter</hi> anſwered and ſaid,<note place="margin">
+                     <hi>Mat.</hi> 16.11, 17.</note> Thou art Chriſt, the Son of the living God. And Je<g ref="char:EOLhyphen"/>ſus anſwered and ſaid unto him,<note place="margin">
+                     <hi>Joh.</hi> 1.49.</note> Bleſſed art thou <hi>Si<g ref="char:EOLhyphen"/>mon Bar-Jona,</hi> for Fleſh and Blood hath not revealed it unto thee, but my Father which is in Heaven. Jeſus ſaid to the blind man healed by him, Doſt thou believe on the Son of God? he anſwered and ſaid,<note place="margin">
+                     <hi>Joh.</hi> 9.35.</note> Who is the Lord, that I might believe on him. And Jeſus ſaid unto him, Thou haſt both ſeen him, and it is he that talketh with thee. And he ſaid, Lord I believe, and he worſhipped him. Jeſus ſaid of the <hi>Centurion,</hi>
+                  <note place="margin">
+                     <hi>Mat.</hi> 8.10.</note> I have not found ſo great Faith, no not in <hi>Iſrael.</hi> Je<g ref="char:EOLhyphen"/>ſus ſaid of the Woman of <hi>Canan,</hi>
+                  <note place="margin">
+                     <hi>Mat.</hi> 15.28.</note> O Woman great is thy Faith, be it unto thee even as thou wilt.<note place="margin">
+                     <hi>Luke</hi> 23.42.</note> The Thief on the Croſs had great Faith when he ſaid, Lord remember me when thou comeſt into thy Kingdom, and Chriſt approved it, ſaying, To day ſhalt thou be with me in Paradiſe. The <hi>Jews</hi> that heard <hi>Peter,</hi>
+                  <note place="margin">
+                     <hi>Act.</hi> 2.37.</note> were pricked in their hearts, and ſaid, Men and Bre<g ref="char:EOLhyphen"/>thren what ſhall we do? And <hi>Peter</hi> ſaid, Repent and be Baptized every one of you, in the name of Je<g ref="char:EOLhyphen"/>ſus Chriſt, <hi>&amp;c.</hi> The <hi>Gentiles</hi> believed, and the Holy Ghoſt fell upon them, and they were Baptized in the Name of the Lord Jeſus. The <hi>Eunuch</hi> upon his de<g ref="char:EOLhyphen"/>ſire to <hi>Philip</hi> was Baptized, upon this Condition,<note place="margin">
+                     <hi>Act.</hi> 20.47.</note> if thou believeſt with all thine heart thou mayſt,<note place="margin">
+                     <hi>Act.</hi> 8.27, <hi>&amp;c.</hi>
+                  </note> and he anſwered and ſaid, I believe that Jeſus Chriſt is the Son of God. The People ſaid to Chriſt,<note place="margin">
+                     <hi>Act.</hi> 17.2, <hi>&amp;c.</hi>
+                  </note> What ſhall we do that we might work the work of God?<note place="margin">
+                     <hi>Joh.</hi> 6 28.</note> Jeſus ſaid, This is the work of God, that ye believe on him
+<pb n="46" facs="tcp:137014:28"/>whom he hath ſent.<note place="margin">
+                     <hi>Joh.</hi> 8.24.</note> If ye believe not on him, ye ſhall die in your ſins.<note place="margin">
+                     <hi>Act.</hi> 16.30, 31.</note> The Jaylor ſaid, Sirs what muſt I do to be ſaved? And they ſaid, Believe on the Lord Jeſus Chriſt, and thou ſhalt be ſaved, and thy Houſe.<note place="margin">
+                     <hi>Ro.</hi> 10.9, 10, 11.</note> If thou ſhalt confeſs with thy mouth the Lord Jeſus, and ſhalt believe in thine heart, that God hath raiſed him from the dead, thou ſhalt be ſaved, for with the heart man believeth unto Righteouſneſs, and with the mouth confeſſion is made unto Salvation; for the Scripture ſaith, Whoſoever believeth on him, ſhall not be aſhamed. Who is a liar, but he that de<g ref="char:EOLhyphen"/>nieth that Jeſus is the Chriſt?<note place="margin">1 <hi>Joh.</hi> 2.22.</note> He is Antichriſt, that denieth the Father and the Son. Hereby know ye the Spirit of God.<note place="margin">1 <hi>Joh.</hi> 4.2, 3.</note> Every Spirit that confeſſeth that Jeſus Chriſt is come in the Fleſh, is of God, and every Spirit that confeſſeth not that Jeſus Chriſt is come in the Fleſh,<note place="margin">1 <hi>Joh.</hi> 4.15, <hi>&amp;c.</hi>
+                  </note> is not of God. Whoſoever ſhall confeſs that Jeſus is the Son of God, God dwelleth in him, and he in God.<note place="margin">1 <hi>Joh.</hi> 5.1.</note> Whoſoever believeth that Jeſus is the Chriſt, is born of God, and every one that loveth him that begat, loveth him alſo that is begotten of him.<note place="margin">
+                     <hi>Joh.</hi> 20.30.31.</note> Many other ſigns did Jeſus in the preſence of his Diſciples, which are not written in this Book, but theſe are written, that ye might believe that Jeſus is the Chriſt, the Son of God, and that believing, ye might have life through his Name.</p>
+               <p>Theſe and ſuch like are plain Scriptures, and abſo<g ref="char:EOLhyphen"/>lutely neceſſary, and ſufficient for Salvation. This may quiet all,</p>
+               <p>
+                  <hi>Ob.</hi> Of what uſe then are other Scriptures?</p>
+               <p>
+                  <hi>Sol.</hi> From a Child thou haſt known the Holy Scrip<g ref="char:EOLhyphen"/>tures,<note place="margin">2 <hi>Tim.</hi> 3.15.16.17.</note> which are able to make thee wiſe unto Salvati<g ref="char:EOLhyphen"/>on, through Faith which is in Chriſt Jeſus. All Scrip<g ref="char:EOLhyphen"/>ture is given by Inſpiration of God, and as profitable for Doctrine, for Reproof, for Correction, for Inſtructi<g ref="char:EOLhyphen"/>on
+<pb n="47" facs="tcp:137014:28"/>in Righteouſneſs, that the Man of God may be perfect throughly furniſhed unto all good works.</p>
+               <p>All Scriptures are equally true, but not equally im<g ref="char:EOLhyphen"/>portant, nor neceſſary in <hi>terminis.</hi> The Death and Reſurrection of Chriſt are of greater value, then the Circumſtances of them. The Text is of more worth, then the Comments, Paraphraſes and Gloſſes upon them. As long as we believe the main, we are ſafe for other things.</p>
+               <q>Errare poſſum, Haereticus eſſe nolo.<note place="margin">Aug.</note>
+               </q>
+               <p>Repentance and Faith are the whole Duties of man.</p>
+               <p>Every one that doth evil hateth the light,<note place="margin">
+                     <hi>Joh.</hi> 3.20.21.</note> neither cometh to the light, leſt his Deeds ſhould be repro<g ref="char:EOLhyphen"/>ved; but he that doth Truth, cometh to the Light, that his Deeds might be made manifeſt, that they are wrought in God. The Kingdom of God conſiſt<g ref="char:EOLhyphen"/>eth in Righteouſneſs and Peace, and Joy in the Holy Ghoſt. The Kingdom of Chriſt is within us.<note place="margin">
+                     <hi>Joh.</hi> 1.12 13.</note> As many as received him, to them gave he power to be<g ref="char:EOLhyphen"/>come the Sons of God, even to them that believe in his name. Which were born, not of Blood, nor of the Will of the Fleſh, nor of the Will of man, but of God. Of him ye are in Chriſt Jeſus,<note place="margin">1 <hi>Cor.</hi> 1.30.</note> who is made unto us, Wiſdom, and Righteouſneſs, and Sanctificati<g ref="char:EOLhyphen"/>on, and Redemption. See the Sermon on the Mount <hi>per totum.</hi>
+               </p>
+               <p>Thou ſhalt love the Lord thy God with all thy heart, and with all thy Soul, and with all thy mind.<note place="margin">
+                     <hi>Mat.</hi> 22.37.38</note> This is the Firſt and great Commandment. And the Second is like unto it, Thou ſhall love thy Neighbour as thy ſelf. On theſe two Commandments hang all the Law and the Prophets.<note place="margin">
+                     <hi>Joh.</hi> 13.34, 35</note> A New Covenant I give
+<pb n="48" facs="tcp:137014:29"/>unto you, That ye love one another, as I have lo<g ref="char:EOLhyphen"/>ved you, that ye alſo love one another. By this ſhall all men know, that ye are my Diſciples, if ye have love one to another.</p>
+               <p>This is my Commandment,<note place="margin">
+                     <hi>Joh.</hi> 15.12.</note> That ye love one ano<g ref="char:EOLhyphen"/>ther, as I have loved you.</p>
+               <p>The hour cometh,<note place="margin">
+                     <hi>Joh.</hi> 4 21.</note> when ye ſhall neither in this Mountain, nor yet at <hi>Jeruſalem</hi> worſhip the Father. But the hour cometh, and now is, when the true Worſhippers ſhall Worſhip the Father, in Spirit and in Truth, for the Father ſeeketh ſuch to Worſhip him. God is a Spirit, and they that Worſhip him, muſt Worſhip him in Spirit and in Truth. We have known and believed the love that God hath to us, God is love, and he that dwelleth in love, dwelleth in God, and he in him.<note place="margin">1 <hi>Joh.</hi> 4.16. <hi>Heb.</hi> 10.19, <hi>&amp;c</hi>
+                  </note> Having boldneſs to enter into the Holieſt by the Blood of Jeſus. By a new and living way which he hath Conſecrated for us, through the Vail, that is to ſay, his Fleſh. And having a High Prieſt over the Houſe of God, let us draw neer with a true heart, in full aſſurance of Faith, having our hearts ſprinkled from an evil Conſcience, and our Bodies waſhed with pure Water. Whom God hath ſet forth to be a Pro<g ref="char:EOLhyphen"/>pitiation through Faith in his Blood,<note place="margin">
+                     <hi>Ro</hi> 3.25, <hi>&amp;c.</hi>
+                  </note> to declare his Righteouſneſs, for the Remiſſion of ſins, that are paſt, through the forbearance of God, &amp;c. One Medi<g ref="char:EOLhyphen"/>ator between God and Man Chriſt Jeſus, who gave himſelf a Ranſom for all, to be teſtified in due time. If any man ſin,<note place="margin">
+                     <hi>Tim.</hi> 2.5, 6.</note> we have an Advocate with the Father, Jeſus Chriſt the Righteous,<note place="margin">
+                     <hi>Joh.</hi> 2.1, 2.</note> and he is the Propitiati<g ref="char:EOLhyphen"/>on for our ſins, and not for ours only, but for the ſins of the whole World.<note place="margin">
+                     <hi>Mat.</hi> 16.24.</note> If any man will come after me, let him deny himſelf, and take up his Croſs, and follow me, &amp;c.</p>
+               <pb n="49" facs="tcp:137014:29"/>
+               <p>He that believeth on him is not condemned,<note place="margin">
+                     <hi>Joh.</hi> 3.18.</note> but he that believeth not, is condemned already.<note place="margin">
+                     <hi>Joh.</hi> 8.12.</note> I am the Light of the World, he that followeth me, ſhall not work in darkneſs, but ſhall have the Light of Life.<note place="margin">
+                     <hi>Tit.</hi> 2.11.</note> The Grace of God that bringeth Salvation hath ap<g ref="char:EOLhyphen"/>peared to all men, &amp;c.</p>
+            </div>
+            <div n="15" type="section">
+               <head>SECT. XV.</head>
+               <p n="2">2. Morality deſpiſed is Chriſtianity.<note place="margin">
+                     <hi>Morality. Heb.</hi> 11.6.</note> They that fear God, and work Righteouſneſs, are accepted of him. They that believe God, believe Chriſt. Without Faith it is impoſſible to pleaſe God, for he that cometh to God, muſt believe that he is, and that he is a Re<g ref="char:EOLhyphen"/>warder of them that diligently ſeek him.</p>
+               <p>
+                  <hi>Ob.</hi> Moral Men have no Grace, they are many of them in Hell.</p>
+               <p>
+                  <hi>Sol.</hi> This is the Language,<note place="margin">
+                     <hi>Ro.</hi> 2.26, &amp;c.</note> of thoſe that pretend to ſpeak the Language of <hi>Canan.</hi> Let us hearken to ſound words. If the Uncircumciſion keep the Righ<g ref="char:EOLhyphen"/>teouſneſs of the Law, ſhall not his Uncircumciſion be counted for Circumciſion? And ſhall not Uncir<g ref="char:EOLhyphen"/>cumciſion, which is by Nature, if it fulfil the Law, Judge thee, who by the Letter and Circumciſion doth tranſgreſs the Law? For he is not a <hi>Jew</hi> which is one outwardly, neither is that Circumciſion, which is out<g ref="char:EOLhyphen"/>wardly in the Fleſh: But he is a <hi>Jew</hi> which is one in<g ref="char:EOLhyphen"/>wardly, and Circumciſion is that of the heart, in the Spirit, and not in the Letter, whoſe praiſe is not of Men, but of God.</p>
+               <p>A Moral Man is a Chriſtian by the ſurer ſide. Specu<g ref="char:EOLhyphen"/>lations,<note place="margin">Mr. Hobs.</note> Notions, Forms, are miſtaken. A good life ſaved Heathens. The Light of Nature is God's Will, though it be more highly revealed.</p>
+               <pb n="50" facs="tcp:137014:30"/>
+               <p>I muſt confeſs I have not yet made the proficiency in the Schools of our Ages, as to ſee, why the ſecond Table and the Acts of it, are not as properly the part of Religion and Chriſtianity, as the Acts and Obſervati<g ref="char:EOLhyphen"/>ons of the Firſt Table. If I miſtake in this 'tis St. <hi>James</hi> that hath abuſed me,<note place="margin">
+                     <hi>Jam.</hi> 1.17.</note> who ſaith, Pure Religion and undefiled before God and the Father, is this, To viſit the Fatherleſs and Widows in their Affliction, and to keep himſelf unſpotted from the World. So the thing which in the new Dialect ſignifies nothing but Morality, and Civility, the ſame, in the Language of the Holy Ghoſt imports true Religion, and undefiled. Such as we Sow, ſuch ſhall we Reap. God will re<g ref="char:EOLhyphen"/>quire no more than what he hath given. We talk of Special Graces, but Sanctification makes the Saints, and Self-denial the Chriſtians, and he that doth Righte<g ref="char:EOLhyphen"/>ouſneſs is Righteous, and he ſhall live and not die. Fol<g ref="char:EOLhyphen"/>low Peace with all men, and Holineſs, without which no Man ſhall ſee the Lord.<note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>eb.</hi> 12.14.</note> Lord I have hoped for thy Salvation, and done thy Commandments. Chriſt ſaid,<note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſ.</hi> 119.164.</note> I muſt preach the Kingdom of God, to other Cities alſo,<note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>uke</hi> 4.43.</note> for therefore am I ſent. The Kingdom of God is within you.<note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>uke</hi> 17.20.</note> The Grace of God that bring<g ref="char:EOLhyphen"/>eth Salvation, hath appeared to all men. Teaching us to deny ungodlineſs,<note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>it.</hi> 2.11.</note> 
+                  <hi>&amp;c.</hi> All Fleſh ſhall ſee the Salvation of God.<note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>oh.</hi> 3.6.</note> The ſame came for a Witneſs, to bear witneſs of the Light,<note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>oh.</hi> 1.7.<gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>.8.16.</note> that all men through him might believe.</p>
+            </div>
+            <div n="16" type="section">
+               <head>SECT. XVI.</head>
+               <p n="3">3. A viſible Judge pretended,<note place="margin">
+                     <gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ſible Judge.</note> the Judge is within us, the Spirit its ſelf beareth witneſs with our Spirits, that we are the Children of God. Let every man prove his own Work,<note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>l.</hi> 6.45.</note> then ſhall he have rejoycing in himſelf
+<pb n="51" facs="tcp:137014:30"/>alone, and not in another.<note place="margin">1 <hi>Joh.</hi> 3.21.</note> If our heart condemn us not, then have we confidence towards God.</p>
+               <p>
+                  <hi>Luke</hi> made <hi>Theophilus</hi> his own Judge of his Wri<g ref="char:EOLhyphen"/>tings to him, as the Apoſtle did them at <hi>Rome, Corinth, &amp;c.</hi> And the People made the Church. Infallibility takes away the uſe of every man's Reaſon. The Pope ſhould conclude us by Conviction, and not by Autho<g ref="char:EOLhyphen"/>rity, to make us to believe a Lie.<note place="margin">
+                     <hi>Ro.</hi> 1.19.</note> That which may be known of God, is manifeſt in them, for God hath ſhewed it unto them.<note place="margin">2 <hi>Cor.</hi> 4.1, 2, &amp;c.</note> As we have received Mercy we faint not, but have renounced the hidden things of diſ<g ref="char:EOLhyphen"/>honeſty, not walking in craftineſs, nor handling the word of God deceitfully, but by manifeſtation of the Truth, commending our ſelves to every man's Con<g ref="char:EOLhyphen"/>ſcience, in the ſight of God, for if our Goſpel be hid, it is hid to them that are loſt, in whom the God of this World hath blinded the Minds of them which believe not, leſt the Light of the Glorious Goſpel of Chriſt, who as the Image of God, ſhould ſhine unto them, <hi>&amp;c.</hi>
+               </p>
+               <p>The Church is not viſible, nor Worldly, as other Societies. World and Church like <hi>Soſia</hi> and <hi>Mercury</hi> reſemble at a vaſt difference.</p>
+            </div>
+            <div n="17" type="section">
+               <head>SECT. XVII.</head>
+               <p n="4">4. Liberty, The <hi>Jews</hi> after hard ſervice under the Law, during their Minority, when the Goſpel came,<note place="margin">Liberty.</note> were Adult and Free.</p>
+               <p>The <hi>Gentiles</hi> knew no Minority, but under Na<g ref="char:EOLhyphen"/>tures Law, and upon the preaching of the Goſpel were immediately Adult and Free.</p>
+               <p>The <hi>Jews</hi> loſt their Carnal Priviledges which did them no Good, for they were ſtill Debtors reſponſible to the Law, which could never be ſatisfied. But
+<pb n="52" facs="tcp:137014:31"/>when they and the <hi>Gentiles</hi> embraced the Goſpel, they were by the goodneſs of God, immediately ſet at Liberty, and inveſted with Spiritual Priviledges which did them good, and ſet them everlaſtingly free from the Curſe of all Law.</p>
+               <p>So the fulneſs of Time of the <hi>Gentiles</hi> came in ſud<g ref="char:EOLhyphen"/>denly, all at once, upon them for Adoption and Son<g ref="char:EOLhyphen"/>ſhip without the Law. And for their Faith they were made elder Brethren by Grace to the <hi>Jews,</hi> which were the Elder Brethren by Nature. As <hi>Jacob</hi> was the Younger to <hi>Eſau</hi> the firſt Born. The <hi>Jews</hi> had the firſt offer to keep their Birthright, but they profanely rejected it, ſo the offer was made to the <hi>Jews</hi> they re<g ref="char:EOLhyphen"/>fuſed. So we turn to the <hi>Gentiles</hi> and they wiſely accepted it. The Sons of the Free-Woman were diſ<g ref="char:EOLhyphen"/>inherited, and the Sons of the Bond-Woman legitima<g ref="char:EOLhyphen"/>ted. Great Grace by the Goſpel, greater than by the Law.</p>
+               <p>The <hi>Jews</hi> ſtood upon their Carnal Birth, and Car<g ref="char:EOLhyphen"/>nal Ordinances, they were <hi>Abraham</hi>'s Children, and <hi>Moſe</hi>'s Diſciples. But the <hi>Gentiles</hi> by Faith were the true Children of Faithful <hi>Abraham,</hi> and the true Diſ<g ref="char:EOLhyphen"/>ciples of Chriſt the Lord of <hi>Moſes.</hi>
+               </p>
+               <p>But between the Believing <hi>Jew</hi> and the Believing <hi>Gentile,</hi> there is no difference at all. We perceive by this, that God is no reſpecter of Perſons, but in every Nation, they that fear him, and work Righteouſneſs, are accepted of him. Thoſe that honour God, he will honour, but thoſe that deſpiſe him, ſhall be lightly e<g ref="char:EOLhyphen"/>ſteemed.</p>
+               <p>The Allegories of <hi>Sarah</hi> and <hi>Agar, Eſau</hi> and <hi>Ja<g ref="char:EOLhyphen"/>cob, Jſhmael</hi> and <hi>Iſaac, Mount Sinai</hi> and <hi>Mount Si<g ref="char:EOLhyphen"/>on, Jeruſalem</hi> above and <hi>Jeruſalem</hi> below, are changed in their Natures, and all are free in Chriſt Jeſus, who is all in all.</p>
+               <pb n="53" facs="tcp:137014:31"/>
+               <p>
+                  <hi>Ob.</hi> We are no <hi>Jews</hi> no fear of that.</p>
+               <p>
+                  <hi>Sol.</hi> We are a little <hi>Jewiſh,</hi> ſome fear of that.</p>
+               <p>
+                  <hi>Ob.</hi> We are not <hi>Heathens</hi> for Idolatry.</p>
+               <p>
+                  <hi>Sol.</hi> We are ſomething Heatheniſh for Superſtition.</p>
+               <p>Therefore in Modern Divinity we diſtinguiſh care<g ref="char:EOLhyphen"/>fully, between <hi>Judaiſm</hi> and <hi>Paganiſm,</hi>
+                  <note place="margin">Concluſion.</note> Carnal and Spiritual Prieſthood, Law, Altar, Temple, Sacrifice; between Works, Faith, Liberty, Bondage, Fleſh and Spirit; rightly dividing the Word of Truth, like Workmen that need not to be aſhamed. Theſe are ſhort Hints of the matter largely diſplaied in the Dif<g ref="char:EOLhyphen"/>ference between the two Covenants in the Two Te<g ref="char:EOLhyphen"/>ſtaments of the Law and the Goſpel.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
